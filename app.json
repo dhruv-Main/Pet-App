@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Pet Commerce Ecosystem",
+    "slug": "pet-commerce-ecosystem",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": ["petco", "petos"],
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0b0f1a"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.petco.ecosystem"
+    },
+    "android": {
+      "package": "com.petco.ecosystem",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b0f1a"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-local-authentication",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Pet OS uses the camera to scan pet passport QR codes.",
+          "recordAudioAndroid": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false,
+      "tsconfigPaths": true
+    }
+  }
+}

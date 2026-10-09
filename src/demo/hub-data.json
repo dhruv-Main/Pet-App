@@ -1,0 +1,4548 @@
+{
+  "groups": [
+    {
+      "id": "food",
+      "title": "Food and nutrition",
+      "blurb": "Daily meals, refills and vet-led diets",
+      "icon": "utensils"
+    },
+    {
+      "id": "fashion",
+      "title": "Fashion and clothing",
+      "blurb": "Comfortable wear for every season",
+      "icon": "shirt"
+    },
+    {
+      "id": "gear",
+      "title": "Accessories and smart devices",
+      "blurb": "Gear, trackers and connected tech",
+      "icon": "cpu"
+    },
+    {
+      "id": "play",
+      "title": "Toys and enrichment",
+      "blurb": "Keep minds and bodies busy",
+      "icon": "puzzle"
+    },
+    {
+      "id": "health",
+      "title": "Healthcare store",
+      "blurb": "Medicines, protection and daily care",
+      "icon": "pill"
+    },
+    {
+      "id": "services",
+      "title": "Care services",
+      "blurb": "Vets, groomers, trainers and travel",
+      "icon": "stethoscope"
+    },
+    {
+      "id": "community",
+      "title": "Community and adoption",
+      "blurb": "Meet, adopt and look out for each other",
+      "icon": "users"
+    },
+    {
+      "id": "smart",
+      "title": "Smart pet care",
+      "blurb": "Records, reminders, safety and insight",
+      "icon": "brain"
+    },
+    {
+      "id": "more",
+      "title": "More for pet parents",
+      "blurb": "Emergency, planning and marketplaces",
+      "icon": "sparkles"
+    }
+  ],
+  "features": [
+    {
+      "n": 1,
+      "key": "daily-food",
+      "group": "food",
+      "title": "Daily pet food",
+      "tagline": "Fresh stock delivered when you need it",
+      "icon": "utensils",
+      "img": "pr1",
+      "mode": "shop",
+      "target": "food"
+    },
+    {
+      "n": 2,
+      "key": "refills",
+      "group": "food",
+      "title": "Subscription refills",
+      "tagline": "Save 10 percent and never run out",
+      "icon": "repeat",
+      "img": "pr2",
+      "mode": "shop",
+      "target": "refills"
+    },
+    {
+      "n": 3,
+      "key": "breed-nutrition",
+      "group": "food",
+      "title": "Breed-specific nutrition",
+      "tagline": "Formulas matched to breed and size",
+      "icon": "dog",
+      "img": "p1",
+      "mode": "shop",
+      "target": "breed"
+    },
+    {
+      "n": 4,
+      "key": "prescription-diets",
+      "group": "food",
+      "title": "Prescription diets",
+      "tagline": "Vet-led diets for medical conditions",
+      "icon": "file",
+      "img": "pr31",
+      "mode": "shop",
+      "target": "prescription"
+    },
+    {
+      "n": 5,
+      "key": "treats-supplements",
+      "group": "food",
+      "title": "Treats and supplements",
+      "tagline": "Rewards and daily wellness",
+      "icon": "gift",
+      "img": "pr8",
+      "mode": "shop",
+      "target": "treats"
+    },
+    {
+      "n": 6,
+      "key": "clothing",
+      "group": "fashion",
+      "title": "Pet clothing",
+      "tagline": "Comfort-fit wear for all breeds",
+      "icon": "shirt",
+      "img": "pr23",
+      "mode": "shop",
+      "target": "clothing"
+    },
+    {
+      "n": 7,
+      "key": "raincoats",
+      "group": "fashion",
+      "title": "Raincoats",
+      "tagline": "Waterproof and reflective for monsoon walks",
+      "icon": "umbrella",
+      "img": "pr22",
+      "mode": "shop",
+      "target": "raincoats"
+    },
+    {
+      "n": 8,
+      "key": "winter-wear",
+      "group": "fashion",
+      "title": "Winter wear",
+      "tagline": "Jackets and sweaters for cold mornings",
+      "icon": "snowflake",
+      "img": "pr38",
+      "mode": "shop",
+      "target": "winter"
+    },
+    {
+      "n": 9,
+      "key": "festival",
+      "group": "fashion",
+      "title": "Festival collections",
+      "tagline": "Festive outfits for every celebration",
+      "icon": "sparkles",
+      "img": "pr36",
+      "mode": "shop",
+      "target": "festival"
+    },
+    {
+      "n": 10,
+      "key": "custom-clothing",
+      "group": "fashion",
+      "title": "Custom clothing",
+      "tagline": "Design a name hoodie or tee in minutes",
+      "icon": "palette",
+      "img": "pr40",
+      "mode": "tool",
+      "target": "customclothing"
+    },
+    {
+      "n": 11,
+      "key": "collars-harnesses",
+      "group": "gear",
+      "title": "Collars and harnesses",
+      "tagline": "Safe, comfortable walking gear",
+      "icon": "tag",
+      "img": "pr20",
+      "mode": "shop",
+      "target": "collars"
+    },
+    {
+      "n": 12,
+      "key": "beds-crates",
+      "group": "gear",
+      "title": "Beds and crates",
+      "tagline": "Rest, cool-down and safe spaces",
+      "icon": "box",
+      "img": "pr19",
+      "mode": "shop",
+      "target": "beds"
+    },
+    {
+      "n": 13,
+      "key": "gps-trackers",
+      "group": "gear",
+      "title": "GPS trackers",
+      "tagline": "Real-time location with geofencing",
+      "icon": "pin",
+      "img": "pr24",
+      "mode": "shop",
+      "target": "gps"
+    },
+    {
+      "n": 14,
+      "key": "smart-feeders",
+      "group": "gear",
+      "title": "Smart feeders",
+      "tagline": "Scheduled, portion-controlled meals",
+      "icon": "cpu",
+      "img": "pr50",
+      "mode": "shop",
+      "target": "feeders"
+    },
+    {
+      "n": 15,
+      "key": "smart-cameras",
+      "group": "gear",
+      "title": "Smart cameras",
+      "tagline": "See and talk to your pet from anywhere",
+      "icon": "camera",
+      "img": "pr47",
+      "mode": "shop",
+      "target": "cameras"
+    },
+    {
+      "n": 16,
+      "key": "travel-accessories",
+      "group": "gear",
+      "title": "Travel accessories",
+      "tagline": "Crates, carriers and on-the-go bowls",
+      "icon": "plane",
+      "img": "pr45",
+      "mode": "shop",
+      "target": "travel"
+    },
+    {
+      "n": 17,
+      "key": "interactive-toys",
+      "group": "play",
+      "title": "Interactive toys",
+      "tagline": "Toys that play back",
+      "icon": "zap",
+      "img": "pr53",
+      "mode": "shop",
+      "target": "interactive"
+    },
+    {
+      "n": 18,
+      "key": "puzzle-toys",
+      "group": "play",
+      "title": "Puzzle toys",
+      "tagline": "Mental workouts that slow down mealtime",
+      "icon": "puzzle",
+      "img": "pr51",
+      "mode": "shop",
+      "target": "puzzle"
+    },
+    {
+      "n": 19,
+      "key": "toy-boxes",
+      "group": "play",
+      "title": "Monthly toy boxes",
+      "tagline": "A new surprise every month",
+      "icon": "package",
+      "img": "pr54",
+      "mode": "shop",
+      "target": "toybox"
+    },
+    {
+      "n": 20,
+      "key": "medicines",
+      "group": "health",
+      "title": "Medicines",
+      "tagline": "Vet-approved essentials delivered",
+      "icon": "pill",
+      "img": "pr56",
+      "mode": "shop",
+      "target": "medicines"
+    },
+    {
+      "n": 21,
+      "key": "supplements",
+      "group": "health",
+      "title": "Supplements",
+      "tagline": "Joints, skin, gut and immunity",
+      "icon": "heart-pulse",
+      "img": "pr10",
+      "mode": "shop",
+      "target": "supplements"
+    },
+    {
+      "n": 22,
+      "key": "tick-flea",
+      "group": "health",
+      "title": "Tick and flea products",
+      "tagline": "Monthly protection that works",
+      "icon": "shield",
+      "img": "pr12",
+      "mode": "shop",
+      "target": "tickflea"
+    },
+    {
+      "n": 23,
+      "key": "grooming-products",
+      "group": "health",
+      "title": "Grooming products",
+      "tagline": "Shampoos, brushes and de-shedding",
+      "icon": "scissors",
+      "img": "pr14",
+      "mode": "shop",
+      "target": "grooming"
+    },
+    {
+      "n": 24,
+      "key": "dental-care",
+      "group": "health",
+      "title": "Dental care products",
+      "tagline": "Fresh breath and healthy gums",
+      "icon": "smile",
+      "img": "pr60",
+      "mode": "shop",
+      "target": "dental"
+    },
+    {
+      "n": 25,
+      "key": "teleconsult",
+      "group": "services",
+      "title": "24/7 vet teleconsultation",
+      "tagline": "Video consults with verified vets",
+      "icon": "video",
+      "img": "s1",
+      "mode": "service",
+      "target": "Teleconsult"
+    },
+    {
+      "n": 26,
+      "key": "clinic-booking",
+      "group": "services",
+      "title": "Clinic booking",
+      "tagline": "Book a visit at a trusted clinic",
+      "icon": "stethoscope",
+      "img": "s3",
+      "mode": "service",
+      "target": "Clinics"
+    },
+    {
+      "n": 27,
+      "key": "grooming-services",
+      "group": "services",
+      "title": "Grooming services",
+      "tagline": "Spa, bath and styling",
+      "icon": "scissors",
+      "img": "s2",
+      "mode": "service",
+      "target": "Grooming"
+    },
+    {
+      "n": 28,
+      "key": "training",
+      "group": "services",
+      "title": "Pet training",
+      "tagline": "Certified trainers for every stage",
+      "icon": "graduation",
+      "img": "s5",
+      "mode": "service",
+      "target": "Training"
+    },
+    {
+      "n": 29,
+      "key": "dog-walking",
+      "group": "services",
+      "title": "Dog walking",
+      "tagline": "Daily walks with live updates",
+      "icon": "footprints",
+      "img": "s6",
+      "mode": "service",
+      "target": "Walking"
+    },
+    {
+      "n": 30,
+      "key": "boarding",
+      "group": "services",
+      "title": "Boarding marketplace",
+      "tagline": "Compare and book verified stays",
+      "icon": "building",
+      "img": "s4",
+      "mode": "service",
+      "target": "Boarding"
+    },
+    {
+      "n": 31,
+      "key": "pet-sitting",
+      "group": "services",
+      "title": "Pet sitting",
+      "tagline": "Care at home while you travel",
+      "icon": "home",
+      "img": "s12",
+      "mode": "service",
+      "target": "Pet sitting"
+    },
+    {
+      "n": 32,
+      "key": "pet-taxi",
+      "group": "services",
+      "title": "Pet taxi",
+      "tagline": "Safe door-to-door rides",
+      "icon": "car",
+      "img": "s7",
+      "mode": "service",
+      "target": "Pet taxi"
+    },
+    {
+      "n": 33,
+      "key": "relocation",
+      "group": "services",
+      "title": "Pet relocation services",
+      "tagline": "Domestic and international moves",
+      "icon": "plane",
+      "img": "s13",
+      "mode": "service",
+      "target": "Relocation"
+    },
+    {
+      "n": 34,
+      "key": "insurance-plans",
+      "group": "services",
+      "title": "Insurance and wellness plans",
+      "tagline": "Cover accidents, illness and checkups",
+      "icon": "shield",
+      "img": "prime",
+      "mode": "listing",
+      "target": "plans"
+    },
+    {
+      "n": 35,
+      "key": "social",
+      "group": "community",
+      "title": "Pet parent social network",
+      "tagline": "Share moments with other pet parents",
+      "icon": "users",
+      "img": "c1",
+      "mode": "link",
+      "target": "Community"
+    },
+    {
+      "n": 36,
+      "key": "adoption",
+      "group": "community",
+      "title": "Adoption listings",
+      "tagline": "Meet pets looking for a home",
+      "icon": "heart",
+      "img": "p3",
+      "mode": "listing",
+      "target": "adoption"
+    },
+    {
+      "n": 37,
+      "key": "lost-found",
+      "group": "community",
+      "title": "Lost and found",
+      "tagline": "Help pets get home",
+      "icon": "search",
+      "img": "s9",
+      "mode": "listing",
+      "target": "lostfound"
+    },
+    {
+      "n": 38,
+      "key": "groups",
+      "group": "community",
+      "title": "Community groups",
+      "tagline": "Breed, city and interest groups",
+      "icon": "users",
+      "img": "c9",
+      "mode": "listing",
+      "target": "groups"
+    },
+    {
+      "n": 39,
+      "key": "reviews",
+      "group": "community",
+      "title": "Reviews and ratings",
+      "tagline": "Honest reviews from real pet parents",
+      "icon": "star",
+      "img": "c5",
+      "mode": "tool",
+      "target": "reviews"
+    },
+    {
+      "n": 40,
+      "key": "events",
+      "group": "community",
+      "title": "Pet events and meetups",
+      "tagline": "Runs, camps and workshops nearby",
+      "icon": "calendar",
+      "img": "community",
+      "mode": "listing",
+      "target": "events"
+    },
+    {
+      "n": 41,
+      "key": "health-record",
+      "group": "smart",
+      "title": "Digital Pet Health Record",
+      "tagline": "Every visit, vaccine and report in one place",
+      "icon": "file",
+      "img": "p1",
+      "mode": "link",
+      "target": "PetProfile"
+    },
+    {
+      "n": 42,
+      "key": "reminders",
+      "group": "smart",
+      "title": "Vaccine and medicine reminders",
+      "tagline": "Never miss a dose or a booster",
+      "icon": "bell",
+      "img": "pr35",
+      "mode": "tool",
+      "target": "reminders"
+    },
+    {
+      "n": 43,
+      "key": "ai-assistant",
+      "group": "smart",
+      "title": "AI Pet Assistant",
+      "tagline": "Vet-smart answers, any time",
+      "icon": "bot",
+      "img": "dashboard",
+      "mode": "link",
+      "target": "AiAssistant"
+    },
+    {
+      "n": 44,
+      "key": "sos",
+      "group": "smart",
+      "title": "Emergency SOS",
+      "tagline": "One tap to nearest emergency care",
+      "icon": "siren",
+      "img": "s15",
+      "mode": "tool",
+      "target": "sos"
+    },
+    {
+      "n": 45,
+      "key": "breed-match",
+      "group": "smart",
+      "title": "Breed Match Advisor",
+      "tagline": "Find the breed that fits your life",
+      "icon": "dog",
+      "img": "p2",
+      "mode": "tool",
+      "target": "breedmatch"
+    },
+    {
+      "n": 46,
+      "key": "gps-tracking",
+      "group": "smart",
+      "title": "GPS collar tracking",
+      "tagline": "Live location, geofences and routes",
+      "icon": "pin",
+      "img": "pr49",
+      "mode": "tool",
+      "target": "gps"
+    },
+    {
+      "n": 47,
+      "key": "lost-alert",
+      "group": "smart",
+      "title": "Lost Pet Alert Network",
+      "tagline": "Alert nearby volunteers in minutes",
+      "icon": "radio",
+      "img": "s10",
+      "mode": "tool",
+      "target": "lostalert"
+    },
+    {
+      "n": 48,
+      "key": "rewards",
+      "group": "smart",
+      "title": "Rewards and Loyalty Program",
+      "tagline": "Earn points on every order and visit",
+      "icon": "gift",
+      "img": "prime",
+      "mode": "tool",
+      "target": "rewards"
+    },
+    {
+      "n": 49,
+      "key": "playdates",
+      "group": "smart",
+      "title": "Pet playdates",
+      "tagline": "Find friendly playmates nearby",
+      "icon": "paw",
+      "img": "c15",
+      "mode": "listing",
+      "target": "playdates"
+    },
+    {
+      "n": 50,
+      "key": "expenses",
+      "group": "smart",
+      "title": "Pet Expense Tracker",
+      "tagline": "See where every rupee goes",
+      "icon": "wallet",
+      "img": "pr1",
+      "mode": "tool",
+      "target": "expenses"
+    },
+    {
+      "n": 51,
+      "key": "birthdays",
+      "group": "smart",
+      "title": "Birthday automation",
+      "tagline": "Cakes, gifts and invites on autopilot",
+      "icon": "cake",
+      "img": "p4",
+      "mode": "tool",
+      "target": "birthday"
+    },
+    {
+      "n": 52,
+      "key": "boarding-marketplace",
+      "group": "smart",
+      "title": "Boarding Marketplace",
+      "tagline": "Verified stays with live updates",
+      "icon": "building",
+      "img": "s4",
+      "mode": "service",
+      "target": "Boarding"
+    },
+    {
+      "n": 53,
+      "key": "dna",
+      "group": "smart",
+      "title": "DNA and Breed Verification",
+      "tagline": "Lab-grade breed and health insight",
+      "icon": "dna",
+      "img": "pr14",
+      "mode": "listing",
+      "target": "dna"
+    },
+    {
+      "n": 54,
+      "key": "smart-camera",
+      "group": "smart",
+      "title": "Smart Camera Integration",
+      "tagline": "Live view and activity moments",
+      "icon": "camera",
+      "img": "pr48",
+      "mode": "tool",
+      "target": "camera"
+    },
+    {
+      "n": 55,
+      "key": "prime-plans",
+      "group": "smart",
+      "title": "Pet Prime Wellness Plans",
+      "tagline": "Members save on care, delivery and vets",
+      "icon": "crown",
+      "img": "prime",
+      "mode": "listing",
+      "target": "prime"
+    },
+    {
+      "n": 56,
+      "key": "ambulance",
+      "group": "more",
+      "title": "Pet ambulance booking",
+      "tagline": "Emergency transfer with a trained paramedic",
+      "icon": "ambulance",
+      "img": "s15",
+      "mode": "service",
+      "target": "Ambulance"
+    },
+    {
+      "n": 57,
+      "key": "symptom-checker",
+      "group": "more",
+      "title": "AI Symptom Checker",
+      "tagline": "Check how urgent it is",
+      "icon": "activity",
+      "img": "s1",
+      "mode": "tool",
+      "target": "symptoms"
+    },
+    {
+      "n": 58,
+      "key": "nutrition-planner",
+      "group": "more",
+      "title": "Nutrition Planner",
+      "tagline": "Daily calories and a meal plan",
+      "icon": "utensils",
+      "img": "pr27",
+      "mode": "tool",
+      "target": "nutrition"
+    },
+    {
+      "n": 59,
+      "key": "report-vault",
+      "group": "more",
+      "title": "Medical Report Vault",
+      "tagline": "Secure storage for scans and lab reports",
+      "icon": "folder-lock",
+      "img": "s3",
+      "mode": "tool",
+      "target": "vault"
+    },
+    {
+      "n": 60,
+      "key": "ngo-donations",
+      "group": "more",
+      "title": "NGO Donation Marketplace",
+      "tagline": "Support verified rescues",
+      "icon": "hand-heart",
+      "img": "c8",
+      "mode": "listing",
+      "target": "ngos"
+    },
+    {
+      "n": 61,
+      "key": "breeders",
+      "group": "more",
+      "title": "Verified Breeder Marketplace",
+      "tagline": "Ethical, health-tested breeders",
+      "icon": "shield",
+      "img": "c12",
+      "mode": "listing",
+      "target": "breeders"
+    },
+    {
+      "n": 62,
+      "key": "places",
+      "group": "more",
+      "title": "Pet-Friendly Places Directory",
+      "tagline": "Cafes, parks and stays that welcome pets",
+      "icon": "pin",
+      "img": "community",
+      "mode": "listing",
+      "target": "places"
+    },
+    {
+      "n": 63,
+      "key": "influencers",
+      "group": "more",
+      "title": "Pet Influencer Marketplace",
+      "tagline": "Collaborate with pet creators",
+      "icon": "megaphone",
+      "img": "c13",
+      "mode": "listing",
+      "target": "influencers"
+    },
+    {
+      "n": 64,
+      "key": "multi-pet",
+      "group": "more",
+      "title": "Multi-Pet Family Management",
+      "tagline": "Care for every pet in one view",
+      "icon": "users",
+      "img": "p2",
+      "mode": "tool",
+      "target": "multipet"
+    },
+    {
+      "n": 65,
+      "key": "smart-feeding",
+      "group": "more",
+      "title": "Smart Feeding Integration",
+      "tagline": "Schedules and portions from your phone",
+      "icon": "cpu",
+      "img": "pr25",
+      "mode": "tool",
+      "target": "feeding"
+    }
+  ],
+  "collections": {
+    "food": {
+      "title": "Daily food",
+      "blurb": "Dry, wet and fresh food for every life stage",
+      "categories": [
+        "food"
+      ]
+    },
+    "refills": {
+      "title": "Subscription refills",
+      "blurb": "Subscribe and save 10 percent on every refill",
+      "subscribable": true
+    },
+    "breed": {
+      "title": "Breed-specific nutrition",
+      "blurb": "Formulas designed for size, coat and energy",
+      "tags": [
+        "breed specific"
+      ]
+    },
+    "prescription": {
+      "title": "Prescription diets",
+      "blurb": "Veterinary diets. A valid prescription is verified before dispatch.",
+      "tags": [
+        "prescription"
+      ]
+    },
+    "treats": {
+      "title": "Treats and supplements",
+      "blurb": "Training rewards and daily wellness",
+      "categories": [
+        "treats",
+        "supplements"
+      ]
+    },
+    "clothing": {
+      "title": "Pet clothing",
+      "blurb": "Raincoats, jackets, festive wear and more",
+      "categories": [
+        "apparel"
+      ]
+    },
+    "raincoats": {
+      "title": "Raincoats",
+      "blurb": "Waterproof, reflective and easy to put on",
+      "tags": [
+        "monsoon",
+        "raincoat"
+      ]
+    },
+    "winter": {
+      "title": "Winter wear",
+      "blurb": "Warm layers that do not restrict movement",
+      "tags": [
+        "winter"
+      ]
+    },
+    "festival": {
+      "title": "Festival collections",
+      "blurb": "Dress up for Diwali, Holi, Christmas and more",
+      "tags": [
+        "festival"
+      ]
+    },
+    "collars": {
+      "title": "Collars and harnesses",
+      "blurb": "Padded, reflective and no-pull options",
+      "tags": [
+        "collar",
+        "harness"
+      ]
+    },
+    "beds": {
+      "title": "Beds and crates",
+      "blurb": "Orthopaedic beds, cooling mats and travel crates",
+      "tags": [
+        "bed",
+        "crate"
+      ]
+    },
+    "gps": {
+      "title": "GPS trackers",
+      "blurb": "Know where they are, always",
+      "tags": [
+        "gps"
+      ]
+    },
+    "feeders": {
+      "title": "Smart feeders",
+      "blurb": "Scheduled meals and portion control",
+      "tags": [
+        "feeder"
+      ]
+    },
+    "cameras": {
+      "title": "Smart cameras",
+      "blurb": "Watch, talk and toss a treat",
+      "tags": [
+        "camera"
+      ]
+    },
+    "travel": {
+      "title": "Travel accessories",
+      "blurb": "Carriers, crates and on-the-go hydration",
+      "tags": [
+        "travel"
+      ]
+    },
+    "interactive": {
+      "title": "Interactive toys",
+      "blurb": "Toys that respond and reward",
+      "tags": [
+        "interactive"
+      ]
+    },
+    "puzzle": {
+      "title": "Puzzle toys",
+      "blurb": "Foraging, slow feeding and brain games",
+      "tags": [
+        "puzzle"
+      ]
+    },
+    "toybox": {
+      "title": "Monthly toy boxes",
+      "blurb": "Curated toys delivered every month",
+      "tags": [
+        "toybox"
+      ]
+    },
+    "medicines": {
+      "title": "Medicines",
+      "blurb": "Everyday veterinary medicines",
+      "tags": [
+        "medicine"
+      ]
+    },
+    "supplements": {
+      "title": "Supplements",
+      "blurb": "Joint, skin, gut and immunity support",
+      "categories": [
+        "supplements"
+      ]
+    },
+    "tickflea": {
+      "title": "Tick and flea protection",
+      "blurb": "Spot-ons, collars and sprays",
+      "tags": [
+        "tick and flea"
+      ]
+    },
+    "grooming": {
+      "title": "Grooming products",
+      "blurb": "Shampoos, brushes and de-shedding tools",
+      "categories": [
+        "grooming"
+      ]
+    },
+    "dental": {
+      "title": "Dental care",
+      "blurb": "Chews, pastes and additives for healthy teeth",
+      "tags": [
+        "dental"
+      ]
+    }
+  },
+  "listings": {
+    "adoption": {
+      "title": "Adoption listings",
+      "eyebrow": "Community",
+      "blurb": "Vaccinated, vet-checked pets from verified shelters and rescues.",
+      "icon": "heart",
+      "hero": "p3",
+      "filters": [
+        "Dogs",
+        "Cats",
+        "Puppies",
+        "Senior"
+      ],
+      "searchPlaceholder": "Search by name, breed or shelter",
+      "action": {
+        "kind": "adopt",
+        "label": "Start adoption enquiry",
+        "title": "Adoption enquiry",
+        "status": "Enquiry sent",
+        "fields": [
+          {
+            "key": "home",
+            "label": "Your home",
+            "type": "chips",
+            "options": [
+              "Apartment",
+              "House with garden",
+              "Farmhouse"
+            ]
+          },
+          {
+            "key": "exp",
+            "label": "Pet experience",
+            "type": "chips",
+            "options": [
+              "First-time parent",
+              "Had pets before",
+              "Currently have pets"
+            ]
+          },
+          {
+            "key": "visit",
+            "label": "Preferred meet and greet",
+            "type": "chips",
+            "options": [
+              "This Saturday",
+              "This Sunday",
+              "Next weekend"
+            ]
+          },
+          {
+            "key": "note",
+            "label": "Anything the shelter should know",
+            "type": "multiline",
+            "optional": true,
+            "placeholder": "Work hours, family members, other pets"
+          }
+        ],
+        "steps": [
+          [
+            "Enquiry received",
+            "The shelter reviews your profile"
+          ],
+          [
+            "Meet and greet",
+            "A visit is scheduled at the shelter"
+          ],
+          [
+            "Home check",
+            "A volunteer confirms the home is pet-safe"
+          ],
+          [
+            "Adoption day",
+            "Paperwork, vaccination card and microchip transfer"
+          ]
+        ],
+        "successTitle": "Enquiry sent",
+        "successBody": "The shelter will contact you within 24 hours to confirm your meet and greet."
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "ad1",
+          "title": "Mochi",
+          "subtitle": "Indie pup, 8 months",
+          "img": "c8",
+          "tags": [
+            "Dogs",
+            "Puppies"
+          ],
+          "meta": [
+            [
+              "Age",
+              "8 months"
+            ],
+            [
+              "Gender",
+              "Female"
+            ],
+            [
+              "Shelter",
+              "Cubbon Park Rescue"
+            ],
+            [
+              "Health",
+              "Vaccinated, dewormed"
+            ]
+          ],
+          "about": "Mochi was found near a construction site and has grown into a bright, curious pup who loves people and treats. She is already crate trained and walks well on a lead.",
+          "highlights": [
+            "Vaccinated and dewormed",
+            "Good with children",
+            "Crate trained",
+            "Spay included"
+          ],
+          "verified": true,
+          "badge": "New"
+        },
+        {
+          "id": "ad2",
+          "title": "Simba",
+          "subtitle": "Labrador mix, 2 years",
+          "img": "p3",
+          "tags": [
+            "Dogs"
+          ],
+          "meta": [
+            [
+              "Age",
+              "2 years"
+            ],
+            [
+              "Gender",
+              "Male"
+            ],
+            [
+              "Shelter",
+              "Happy Tails Shelter"
+            ],
+            [
+              "Health",
+              "Fully vaccinated"
+            ]
+          ],
+          "about": "Simba is a loyal, high-energy companion that thrives with daily exercise. He knows sit, stay and paw and loves fetch.",
+          "highlights": [
+            "Fully vaccinated",
+            "Neutered",
+            "Knows basic commands",
+            "Needs an active home"
+          ],
+          "verified": true
+        },
+        {
+          "id": "ad3",
+          "title": "Frost",
+          "subtitle": "Husky mix, 3 years",
+          "img": "p2",
+          "tags": [
+            "Dogs"
+          ],
+          "meta": [
+            [
+              "Age",
+              "3 years"
+            ],
+            [
+              "Gender",
+              "Male"
+            ],
+            [
+              "Shelter",
+              "Indiranagar Dog Haven"
+            ],
+            [
+              "Health",
+              "Vaccinated, microchipped"
+            ]
+          ],
+          "about": "Frost is a gentle, social husky mix who loves long walks and meeting new friends. Best suited to a home with a secure garden.",
+          "highlights": [
+            "Microchipped",
+            "Good with other dogs",
+            "Prefers cooler weather",
+            "Neutered"
+          ],
+          "verified": true
+        },
+        {
+          "id": "ad4",
+          "title": "Honey",
+          "subtitle": "Golden mix, 5 years",
+          "img": "p1",
+          "tags": [
+            "Dogs",
+            "Senior"
+          ],
+          "meta": [
+            [
+              "Age",
+              "5 years"
+            ],
+            [
+              "Gender",
+              "Female"
+            ],
+            [
+              "Shelter",
+              "Golden Years Rescue"
+            ],
+            [
+              "Health",
+              "Vaccinated, joint supplement"
+            ]
+          ],
+          "about": "Honey is calm, affectionate and ideal for a quieter home. She walks slowly, loves cuddles and needs a daily joint supplement.",
+          "highlights": [
+            "Calm temperament",
+            "Good with children",
+            "Daily joint supplement",
+            "Spayed"
+          ],
+          "verified": true
+        },
+        {
+          "id": "ad5",
+          "title": "Whiskers",
+          "subtitle": "Domestic shorthair, 1 year",
+          "img": "p4",
+          "tags": [
+            "Cats"
+          ],
+          "meta": [
+            [
+              "Age",
+              "1 year"
+            ],
+            [
+              "Gender",
+              "Male"
+            ],
+            [
+              "Shelter",
+              "Whisker Haven"
+            ],
+            [
+              "Health",
+              "Vaccinated, litter trained"
+            ]
+          ],
+          "about": "Whiskers is a playful tabby who loves window perches and feather toys. He is litter trained and gets along with other cats.",
+          "highlights": [
+            "Litter trained",
+            "Good with cats",
+            "Neutered",
+            "Indoor only"
+          ],
+          "verified": true
+        },
+        {
+          "id": "ad6",
+          "title": "Pepper",
+          "subtitle": "Indie, 1 year",
+          "img": "c6",
+          "tags": [
+            "Dogs"
+          ],
+          "meta": [
+            [
+              "Age",
+              "1 year"
+            ],
+            [
+              "Gender",
+              "Female"
+            ],
+            [
+              "Shelter",
+              "Cubbon Park Rescue"
+            ],
+            [
+              "Health",
+              "Vaccinated, spayed"
+            ]
+          ],
+          "about": "Pepper is a quick learner with boundless energy. She does well with training and loves agility games.",
+          "highlights": [
+            "Fast learner",
+            "Spayed",
+            "Needs daily play",
+            "Apartment friendly"
+          ],
+          "verified": true
+        },
+        {
+          "id": "ad7",
+          "title": "Biscuit",
+          "subtitle": "Beagle mix, 4 years",
+          "img": "c9",
+          "tags": [
+            "Dogs"
+          ],
+          "meta": [
+            [
+              "Age",
+              "4 years"
+            ],
+            [
+              "Gender",
+              "Male"
+            ],
+            [
+              "Shelter",
+              "Happy Tails Shelter"
+            ],
+            [
+              "Health",
+              "Vaccinated, neutered"
+            ]
+          ],
+          "about": "Biscuit is a food-motivated sweetheart who is easy to train and loves sniff walks.",
+          "highlights": [
+            "Neutered",
+            "Good with children",
+            "Easy to train",
+            "Moderate exercise"
+          ],
+          "verified": true
+        },
+        {
+          "id": "ad8",
+          "title": "Cleo",
+          "subtitle": "Persian mix, 3 years",
+          "img": "p4",
+          "tags": [
+            "Cats"
+          ],
+          "meta": [
+            [
+              "Age",
+              "3 years"
+            ],
+            [
+              "Gender",
+              "Female"
+            ],
+            [
+              "Shelter",
+              "Whisker Haven"
+            ],
+            [
+              "Health",
+              "Vaccinated, spayed"
+            ]
+          ],
+          "about": "Cleo is a serene lap cat who enjoys gentle grooming and quiet company.",
+          "highlights": [
+            "Needs regular grooming",
+            "Calm",
+            "Spayed",
+            "Indoor only"
+          ],
+          "verified": true
+        }
+      ],
+      "key": "adoption"
+    },
+    "lostfound": {
+      "title": "Lost and found",
+      "eyebrow": "Community",
+      "blurb": "Recent reports near you. Every sighting helps a pet get home.",
+      "icon": "search",
+      "hero": "s9",
+      "filters": [
+        "Lost",
+        "Found",
+        "Dogs",
+        "Cats"
+      ],
+      "searchPlaceholder": "Search area, breed or colour",
+      "action": {
+        "kind": "sighting",
+        "label": "I have seen this pet",
+        "title": "Report a sighting",
+        "status": "Report shared",
+        "fields": [
+          {
+            "key": "where",
+            "label": "Where did you see the pet",
+            "type": "text",
+            "placeholder": "Street, landmark or area"
+          },
+          {
+            "key": "when",
+            "label": "When",
+            "type": "chips",
+            "options": [
+              "Just now",
+              "Within the hour",
+              "Earlier today",
+              "Yesterday"
+            ]
+          },
+          {
+            "key": "note",
+            "label": "Details",
+            "type": "multiline",
+            "optional": true,
+            "placeholder": "Behaviour, direction, collar, who was nearby"
+          }
+        ],
+        "steps": [
+          [
+            "Report shared",
+            "The owner is notified instantly"
+          ],
+          [
+            "Owner verifies",
+            "They confirm using your details"
+          ],
+          [
+            "Reunion",
+            "You are thanked once the pet is home"
+          ]
+        ],
+        "successTitle": "Sighting reported",
+        "successBody": "The owner and nearby volunteers have been notified. Thank you for helping."
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "lf1",
+          "title": "Lost: Golden Retriever, Sunny",
+          "subtitle": "Last seen in Indiranagar, 2 hours ago",
+          "img": "p1",
+          "tags": [
+            "Lost",
+            "Dogs"
+          ],
+          "meta": [
+            [
+              "Last seen",
+              "CMH Road, Indiranagar"
+            ],
+            [
+              "Wearing",
+              "Red collar with tag"
+            ],
+            [
+              "Contact",
+              "Owner via Pet OS"
+            ],
+            [
+              "Reward",
+              "Offered"
+            ]
+          ],
+          "about": "Sunny slipped out of the gate during a delivery. He is friendly but may be scared. Please do not chase. Note the location and report it here.",
+          "highlights": [
+            "Microchipped",
+            "Answers to Sunny",
+            "Friendly with strangers",
+            "Reward offered"
+          ],
+          "badge": "Lost",
+          "verified": true
+        },
+        {
+          "id": "lf2",
+          "title": "Found: Tabby cat",
+          "subtitle": "Koramangala 5th Block, yesterday",
+          "img": "p4",
+          "tags": [
+            "Found",
+            "Cats"
+          ],
+          "meta": [
+            [
+              "Found at",
+              "5th Block, Koramangala"
+            ],
+            [
+              "Looks",
+              "Grey tabby, white paws"
+            ],
+            [
+              "Safe with",
+              "Finder at home"
+            ],
+            [
+              "Collar",
+              "None"
+            ]
+          ],
+          "about": "A well-groomed tabby wandered into a courtyard. She is eating and drinking normally and is being cared for by the finder. Please report if she is yours.",
+          "highlights": [
+            "Well groomed",
+            "No collar or chip found yet",
+            "Safe and fed",
+            "Awaiting owner"
+          ],
+          "badge": "Found"
+        },
+        {
+          "id": "lf3",
+          "title": "Lost: Husky, Kai",
+          "subtitle": "Whitefield, 5 hours ago",
+          "img": "p2",
+          "tags": [
+            "Lost",
+            "Dogs"
+          ],
+          "meta": [
+            [
+              "Last seen",
+              "ITPL Main Road"
+            ],
+            [
+              "Wearing",
+              "Blue harness"
+            ],
+            [
+              "Contact",
+              "Owner via Pet OS"
+            ],
+            [
+              "Reward",
+              "Offered"
+            ]
+          ],
+          "about": "Kai is a blue-eyed husky who may be fast-moving and wary of strangers. If you see him, keep calm and share the location.",
+          "highlights": [
+            "Blue eyes",
+            "Microchipped",
+            "Wary of strangers",
+            "Reward offered"
+          ],
+          "badge": "Lost",
+          "verified": true
+        },
+        {
+          "id": "lf4",
+          "title": "Found: Beagle",
+          "subtitle": "HSR Layout Sector 2, today",
+          "img": "c9",
+          "tags": [
+            "Found",
+            "Dogs"
+          ],
+          "meta": [
+            [
+              "Found at",
+              "Sector 2, HSR Layout"
+            ],
+            [
+              "Looks",
+              "Tricolour beagle"
+            ],
+            [
+              "Safe with",
+              "HSR Residents Association"
+            ],
+            [
+              "Collar",
+              "Green collar"
+            ]
+          ],
+          "about": "A friendly beagle with a green collar and no tag was found near the park. The residents association is looking after him.",
+          "highlights": [
+            "Friendly",
+            "Green collar",
+            "Safe and fed",
+            "Awaiting owner"
+          ],
+          "badge": "Found"
+        },
+        {
+          "id": "lf5",
+          "title": "Lost: Persian cat, Mimi",
+          "subtitle": "Jayanagar 4th Block, 1 day ago",
+          "img": "p4",
+          "tags": [
+            "Lost",
+            "Cats"
+          ],
+          "meta": [
+            [
+              "Last seen",
+              "4th Block, Jayanagar"
+            ],
+            [
+              "Wearing",
+              "Pink collar"
+            ],
+            [
+              "Contact",
+              "Owner via Pet OS"
+            ],
+            [
+              "Reward",
+              "Offered"
+            ]
+          ],
+          "about": "Mimi is an indoor cat who slipped out of a balcony door. She may hide under parked cars. Please check garages and compounds.",
+          "highlights": [
+            "Indoor cat",
+            "Pink collar",
+            "Likely hiding nearby",
+            "Reward offered"
+          ],
+          "badge": "Lost",
+          "verified": true
+        },
+        {
+          "id": "lf6",
+          "title": "Found: Labrador puppy",
+          "subtitle": "Domlur, 3 days ago",
+          "img": "p3",
+          "tags": [
+            "Found",
+            "Dogs"
+          ],
+          "meta": [
+            [
+              "Found at",
+              "Domlur flyover"
+            ],
+            [
+              "Looks",
+              "Chocolate lab, about 5 months"
+            ],
+            [
+              "Safe with",
+              "Local rescue volunteer"
+            ],
+            [
+              "Collar",
+              "None"
+            ]
+          ],
+          "about": "A young chocolate Labrador was found near the flyover and is now with a rescue volunteer while the owner is traced.",
+          "highlights": [
+            "About 5 months",
+            "Vet checked",
+            "Safe and fed",
+            "Awaiting owner"
+          ],
+          "badge": "Found"
+        }
+      ],
+      "key": "lostfound"
+    },
+    "groups": {
+      "title": "Community groups",
+      "eyebrow": "Community",
+      "blurb": "Local, breed and interest groups run by pet parents.",
+      "icon": "users",
+      "hero": "c9",
+      "filters": [
+        "Breed",
+        "City",
+        "Health",
+        "Training"
+      ],
+      "searchPlaceholder": "Search groups",
+      "action": {
+        "kind": "join",
+        "label": "Join group",
+        "title": "Join this group",
+        "status": "Joined",
+        "fields": [
+          {
+            "key": "notify",
+            "label": "Notifications",
+            "type": "chips",
+            "options": [
+              "All posts",
+              "Highlights only",
+              "Mute"
+            ]
+          },
+          {
+            "key": "intro",
+            "label": "Introduce yourself",
+            "type": "multiline",
+            "optional": true,
+            "placeholder": "Your pet, your area, what you would like to learn"
+          }
+        ],
+        "steps": [
+          [
+            "Request sent",
+            "Group admins are notified"
+          ],
+          [
+            "Welcome",
+            "You are added and can post right away"
+          ],
+          [
+            "Meet members",
+            "Say hello in the group chat"
+          ]
+        ],
+        "successTitle": "You are in",
+        "successBody": "Welcome to the group. Say hello and share a photo of your pet."
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "g1",
+          "title": "Golden Retriever Parents, Bengaluru",
+          "subtitle": "2,140 members",
+          "img": "p1",
+          "tags": [
+            "Breed",
+            "City"
+          ],
+          "meta": [
+            [
+              "Members",
+              "2,140"
+            ],
+            [
+              "Activity",
+              "Very active"
+            ],
+            [
+              "Meetups",
+              "Monthly"
+            ],
+            [
+              "Admin",
+              "Priya and Coco"
+            ]
+          ],
+          "about": "Share grooming, diet and health tips with other golden owners, and join the monthly park meetups.",
+          "highlights": [
+            "Monthly meetups",
+            "Vet Q and A",
+            "Photo challenges",
+            "Verified admins"
+          ],
+          "verified": true
+        },
+        {
+          "id": "g2",
+          "title": "Indie Adoption Circle",
+          "subtitle": "3,580 members",
+          "img": "c8",
+          "tags": [
+            "City",
+            "Training"
+          ],
+          "meta": [
+            [
+              "Members",
+              "3,580"
+            ],
+            [
+              "Activity",
+              "Very active"
+            ],
+            [
+              "Meetups",
+              "Weekly"
+            ],
+            [
+              "Admin",
+              "Cubbon Park Rescue"
+            ]
+          ],
+          "about": "A supportive group for indie adopters and fosters with training tips, fostering needs and success stories.",
+          "highlights": [
+            "Foster requests",
+            "Training help",
+            "Success stories",
+            "Rescue partners"
+          ],
+          "verified": true
+        },
+        {
+          "id": "g3",
+          "title": "Cat Care Collective",
+          "subtitle": "1,260 members",
+          "img": "p4",
+          "tags": [
+            "Health"
+          ],
+          "meta": [
+            [
+              "Members",
+              "1,260"
+            ],
+            [
+              "Activity",
+              "Active"
+            ],
+            [
+              "Meetups",
+              "Online"
+            ],
+            [
+              "Admin",
+              "Whisker Haven"
+            ]
+          ],
+          "about": "Behaviour, litter, food and health discussions for cat parents, with monthly vet Q and A sessions.",
+          "highlights": [
+            "Behaviour advice",
+            "Monthly vet Q and A",
+            "Fostering",
+            "Product reviews"
+          ],
+          "verified": true
+        },
+        {
+          "id": "g4",
+          "title": "Trail and Trek Dogs",
+          "subtitle": "980 members",
+          "img": "c1",
+          "tags": [
+            "City",
+            "Training"
+          ],
+          "meta": [
+            [
+              "Members",
+              "980"
+            ],
+            [
+              "Activity",
+              "Active"
+            ],
+            [
+              "Meetups",
+              "Fortnightly"
+            ],
+            [
+              "Admin",
+              "Rohan and Tango"
+            ]
+          ],
+          "about": "Weekend treks and trail runs with your dog. Fitness tips, gear reviews and route sharing.",
+          "highlights": [
+            "Weekend treks",
+            "Route sharing",
+            "Gear reviews",
+            "Safety checklists"
+          ],
+          "verified": false
+        },
+        {
+          "id": "g5",
+          "title": "Senior Pet Support",
+          "subtitle": "640 members",
+          "img": "p1",
+          "tags": [
+            "Health"
+          ],
+          "meta": [
+            [
+              "Members",
+              "640"
+            ],
+            [
+              "Activity",
+              "Active"
+            ],
+            [
+              "Meetups",
+              "Online"
+            ],
+            [
+              "Admin",
+              "Dr. Neha Kapoor"
+            ]
+          ],
+          "about": "Care and comfort for older pets, from joint health to end-of-life planning, with vets answering questions weekly.",
+          "highlights": [
+            "Vet moderated",
+            "Joint and mobility care",
+            "Nutrition for seniors",
+            "Peer support"
+          ],
+          "verified": true
+        },
+        {
+          "id": "g6",
+          "title": "First-Time Pet Parents",
+          "subtitle": "4,210 members",
+          "img": "c3",
+          "tags": [
+            "Training",
+            "Health"
+          ],
+          "meta": [
+            [
+              "Members",
+              "4,210"
+            ],
+            [
+              "Activity",
+              "Very active"
+            ],
+            [
+              "Meetups",
+              "Weekly"
+            ],
+            [
+              "Admin",
+              "Pet OS Community"
+            ]
+          ],
+          "about": "Everything you need in the first year, from vaccines and crate training to what to buy and what to skip.",
+          "highlights": [
+            "First-year checklist",
+            "Puppy training",
+            "Vaccine calendar",
+            "Ask anything"
+          ],
+          "verified": true
+        }
+      ],
+      "key": "groups"
+    },
+    "events": {
+      "title": "Pet events and meetups",
+      "eyebrow": "Community",
+      "blurb": "Runs, vaccination camps, workshops and meetups nearby.",
+      "icon": "calendar",
+      "hero": "community",
+      "filters": [
+        "Adoption",
+        "Fitness",
+        "Health",
+        "Social"
+      ],
+      "searchPlaceholder": "Search events",
+      "action": {
+        "kind": "rsvp",
+        "label": "Reserve a spot",
+        "title": "Reserve your spot",
+        "status": "Going",
+        "fields": [
+          {
+            "key": "guests",
+            "label": "People attending",
+            "type": "chips",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "key": "pet",
+            "label": "Bringing",
+            "type": "chips",
+            "options": "@pets"
+          }
+        ],
+        "steps": [
+          [
+            "Spot reserved",
+            "Your reservation is confirmed"
+          ],
+          [
+            "Reminder",
+            "We remind you the evening before"
+          ],
+          [
+            "Check in",
+            "Show your confirmation at the venue"
+          ]
+        ],
+        "successTitle": "You are going",
+        "successBody": "Your spot is reserved. We will remind you the day before."
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "ev1",
+          "title": "Sunday Adoption Drive",
+          "subtitle": "Lalbagh Botanical Garden",
+          "img": "c8",
+          "tags": [
+            "Adoption",
+            "Social"
+          ],
+          "meta": [
+            [
+              "When",
+              "Sun, 12 Oct, 10:00 AM"
+            ],
+            [
+              "Where",
+              "Lalbagh Botanical Garden"
+            ],
+            [
+              "Attending",
+              "214"
+            ],
+            [
+              "Entry",
+              "Free"
+            ]
+          ],
+          "about": "Meet vaccinated pets from six rescues, speak to counsellors and complete adoption paperwork on the spot.",
+          "highlights": [
+            "Six partner rescues",
+            "On-site vet check",
+            "Free entry",
+            "Adoption counsellors"
+          ],
+          "verified": true
+        },
+        {
+          "id": "ev2",
+          "title": "Indiranagar Dog Run 5K",
+          "subtitle": "Defence Colony Park",
+          "img": "c1",
+          "tags": [
+            "Fitness",
+            "Social"
+          ],
+          "meta": [
+            [
+              "When",
+              "Sat, 18 Oct, 6:30 AM"
+            ],
+            [
+              "Where",
+              "Defence Colony Park"
+            ],
+            [
+              "Attending",
+              "168"
+            ],
+            [
+              "Entry",
+              "Rs 299"
+            ]
+          ],
+          "about": "A fun 5K you can run, jog or walk with your dog, followed by a post-run breakfast and goodie bags.",
+          "highlights": [
+            "Timed 5K",
+            "Goodie bags",
+            "Hydration points",
+            "Post-run breakfast"
+          ]
+        },
+        {
+          "id": "ev3",
+          "title": "Free Rabies Vaccination Camp",
+          "subtitle": "Koramangala Community Hall",
+          "img": "c3",
+          "tags": [
+            "Health"
+          ],
+          "meta": [
+            [
+              "When",
+              "Sat, 25 Oct, 9:00 AM"
+            ],
+            [
+              "Where",
+              "Koramangala Community Hall"
+            ],
+            [
+              "Attending",
+              "320"
+            ],
+            [
+              "Entry",
+              "Free"
+            ]
+          ],
+          "about": "Free rabies vaccines and health checks for pets, run by licensed veterinarians. Bring previous vaccination records.",
+          "highlights": [
+            "Free vaccines",
+            "Licensed vets",
+            "Health check",
+            "Certificate issued"
+          ],
+          "verified": true
+        },
+        {
+          "id": "ev4",
+          "title": "Senior Dog Care Workshop",
+          "subtitle": "Cubbon Park Clubhouse",
+          "img": "p1",
+          "tags": [
+            "Health",
+            "Social"
+          ],
+          "meta": [
+            [
+              "When",
+              "Sun, 26 Oct, 11:00 AM"
+            ],
+            [
+              "Where",
+              "Cubbon Park Clubhouse"
+            ],
+            [
+              "Attending",
+              "74"
+            ],
+            [
+              "Entry",
+              "Rs 199"
+            ]
+          ],
+          "about": "A workshop on joints, diet, dental care and comfort for senior dogs, led by Dr. Neha Kapoor.",
+          "highlights": [
+            "Vet led",
+            "Q and A",
+            "Take-home guide",
+            "Limited seats"
+          ],
+          "verified": true
+        },
+        {
+          "id": "ev5",
+          "title": "Husky and Spitz Social",
+          "subtitle": "Jakkur Dog Park",
+          "img": "p2",
+          "tags": [
+            "Social",
+            "Fitness"
+          ],
+          "meta": [
+            [
+              "When",
+              "Sat, 1 Nov, 7:00 AM"
+            ],
+            [
+              "Where",
+              "Jakkur Dog Park"
+            ],
+            [
+              "Attending",
+              "58"
+            ],
+            [
+              "Entry",
+              "Free"
+            ]
+          ],
+          "about": "An early-morning social for northern breeds, with cooling stations and games.",
+          "highlights": [
+            "Breed meetup",
+            "Cooling stations",
+            "Group photos",
+            "Free entry"
+          ]
+        },
+        {
+          "id": "ev6",
+          "title": "Puppy Socialisation Hour",
+          "subtitle": "Whitefield Pet Club",
+          "img": "c8",
+          "tags": [
+            "Social",
+            "Health"
+          ],
+          "meta": [
+            [
+              "When",
+              "Sun, 2 Nov, 5:00 PM"
+            ],
+            [
+              "Where",
+              "Whitefield Pet Club"
+            ],
+            [
+              "Attending",
+              "41"
+            ],
+            [
+              "Entry",
+              "Rs 149"
+            ]
+          ],
+          "about": "A guided socialisation session for puppies under six months, led by a certified trainer.",
+          "highlights": [
+            "Certified trainer",
+            "Puppies under 6 months",
+            "Safe, supervised play",
+            "Take-home plan"
+          ],
+          "verified": true
+        }
+      ],
+      "key": "events"
+    },
+    "playdates": {
+      "title": "Pet playdates",
+      "eyebrow": "Smart pet care",
+      "blurb": "Friendly, vaccinated playmates matched on size and energy.",
+      "icon": "paw",
+      "hero": "c15",
+      "filters": [
+        "Small",
+        "Medium",
+        "Large",
+        "High energy"
+      ],
+      "searchPlaceholder": "Search by name or breed",
+      "action": {
+        "kind": "playdate",
+        "label": "Request playdate",
+        "title": "Request a playdate",
+        "status": "Requested",
+        "fields": [
+          {
+            "key": "pet",
+            "label": "Your pet",
+            "type": "chips",
+            "options": "@pets"
+          },
+          {
+            "key": "when",
+            "label": "When",
+            "type": "chips",
+            "options": [
+              "Tomorrow morning",
+              "Tomorrow evening",
+              "This weekend"
+            ]
+          },
+          {
+            "key": "place",
+            "label": "Where",
+            "type": "chips",
+            "options": [
+              "Neighbourhood park",
+              "Dog park",
+              "Pet-friendly cafe"
+            ]
+          }
+        ],
+        "steps": [
+          [
+            "Request sent",
+            "The other parent is notified"
+          ],
+          [
+            "Confirmed",
+            "They accept and suggest a time"
+          ],
+          [
+            "Playdate",
+            "Meet at the agreed place"
+          ]
+        ],
+        "successTitle": "Request sent",
+        "successBody": "You will be notified as soon as the other parent responds."
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "pd1",
+          "title": "Coco",
+          "subtitle": "Beagle, 3 years, 1.2 km away",
+          "img": "c1",
+          "tags": [
+            "Medium",
+            "High energy"
+          ],
+          "meta": [
+            [
+              "Owner",
+              "Priya"
+            ],
+            [
+              "Distance",
+              "1.2 km"
+            ],
+            [
+              "Energy",
+              "High"
+            ],
+            [
+              "Vaccinated",
+              "Up to date"
+            ]
+          ],
+          "about": "Coco is a playful beagle who loves chase games and ball. She is friendly with dogs of all sizes.",
+          "highlights": [
+            "Vaccinated",
+            "Friendly with all sizes",
+            "Loves chase",
+            "Available evenings"
+          ],
+          "verified": true
+        },
+        {
+          "id": "pd2",
+          "title": "Tango",
+          "subtitle": "Border Collie, 2 years, 2.4 km away",
+          "img": "c13",
+          "tags": [
+            "Medium",
+            "High energy"
+          ],
+          "meta": [
+            [
+              "Owner",
+              "Rohan"
+            ],
+            [
+              "Distance",
+              "2.4 km"
+            ],
+            [
+              "Energy",
+              "Very high"
+            ],
+            [
+              "Vaccinated",
+              "Up to date"
+            ]
+          ],
+          "about": "Tango needs a lot of running and loves herding games. Best with high-energy dogs.",
+          "highlights": [
+            "Vaccinated",
+            "Needs lots of running",
+            "Great with agility",
+            "Available mornings"
+          ],
+          "verified": true
+        },
+        {
+          "id": "pd3",
+          "title": "Daisy",
+          "subtitle": "Shih Tzu, 4 years, 0.8 km away",
+          "img": "c6",
+          "tags": [
+            "Small"
+          ],
+          "meta": [
+            [
+              "Owner",
+              "Meera"
+            ],
+            [
+              "Distance",
+              "0.8 km"
+            ],
+            [
+              "Energy",
+              "Calm"
+            ],
+            [
+              "Vaccinated",
+              "Up to date"
+            ]
+          ],
+          "about": "Daisy is a gentle small-breed dog who enjoys sniffing walks and slow play.",
+          "highlights": [
+            "Vaccinated",
+            "Gentle",
+            "Prefers small dogs",
+            "Available weekends"
+          ],
+          "verified": true
+        },
+        {
+          "id": "pd4",
+          "title": "Rocky",
+          "subtitle": "Great Dane, 3 years, 3.1 km away",
+          "img": "p3",
+          "tags": [
+            "Large"
+          ],
+          "meta": [
+            [
+              "Owner",
+              "Aditya"
+            ],
+            [
+              "Distance",
+              "3.1 km"
+            ],
+            [
+              "Energy",
+              "Moderate"
+            ],
+            [
+              "Vaccinated",
+              "Up to date"
+            ]
+          ],
+          "about": "Rocky is a giant gentle soul who is careful around smaller dogs and loves relaxed walks.",
+          "highlights": [
+            "Vaccinated",
+            "Gentle giant",
+            "Careful with small dogs",
+            "Available evenings"
+          ],
+          "verified": true
+        },
+        {
+          "id": "pd5",
+          "title": "Maya",
+          "subtitle": "Indie, 2 years, 1.7 km away",
+          "img": "c8",
+          "tags": [
+            "Medium"
+          ],
+          "meta": [
+            [
+              "Owner",
+              "Sana"
+            ],
+            [
+              "Distance",
+              "1.7 km"
+            ],
+            [
+              "Energy",
+              "Medium"
+            ],
+            [
+              "Vaccinated",
+              "Up to date"
+            ]
+          ],
+          "about": "Maya is sociable, loves water play and gets along with everyone she meets.",
+          "highlights": [
+            "Vaccinated",
+            "Loves water",
+            "Very sociable",
+            "Available mornings"
+          ],
+          "verified": true
+        },
+        {
+          "id": "pd6",
+          "title": "Zeus",
+          "subtitle": "German Shepherd, 4 years, 2.9 km away",
+          "img": "c15",
+          "tags": [
+            "Large",
+            "High energy"
+          ],
+          "meta": [
+            [
+              "Owner",
+              "Karthik"
+            ],
+            [
+              "Distance",
+              "2.9 km"
+            ],
+            [
+              "Energy",
+              "High"
+            ],
+            [
+              "Vaccinated",
+              "Up to date"
+            ]
+          ],
+          "about": "Zeus is well trained and loves structured fetch. Prefers large dogs with similar energy.",
+          "highlights": [
+            "Vaccinated",
+            "Well trained",
+            "Prefers large dogs",
+            "Available evenings"
+          ],
+          "verified": true
+        }
+      ],
+      "key": "playdates"
+    },
+    "breeders": {
+      "title": "Verified Breeder Marketplace",
+      "eyebrow": "More for pet parents",
+      "blurb": "Only breeders who health-test, register and welcome visits.",
+      "icon": "shield",
+      "hero": "c12",
+      "filters": [
+        "Dogs",
+        "Cats",
+        "KCI registered",
+        "Health tested"
+      ],
+      "searchPlaceholder": "Search breed or breeder",
+      "action": {
+        "kind": "enquire",
+        "label": "Send enquiry",
+        "title": "Breeder enquiry",
+        "status": "Enquiry sent",
+        "fields": [
+          {
+            "key": "budget",
+            "label": "Budget",
+            "type": "chips",
+            "options": [
+              "Up to 40,000",
+              "40,000 to 80,000",
+              "Above 80,000"
+            ]
+          },
+          {
+            "key": "visit",
+            "label": "Preferred visit",
+            "type": "chips",
+            "options": [
+              "Video call first",
+              "Visit this weekend",
+              "Visit next week"
+            ]
+          },
+          {
+            "key": "note",
+            "label": "Message",
+            "type": "multiline",
+            "optional": true,
+            "placeholder": "Home, family and what you are looking for"
+          }
+        ],
+        "steps": [
+          [
+            "Enquiry sent",
+            "The breeder receives your profile"
+          ],
+          [
+            "Verification call",
+            "They discuss suitability and health testing"
+          ],
+          [
+            "Visit",
+            "Meet the parents and the litter"
+          ],
+          [
+            "Reservation",
+            "Optional reservation with a written agreement"
+          ]
+        ],
+        "successTitle": "Enquiry sent",
+        "successBody": "Verified breeders respond within one working day."
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "br1",
+          "title": "Goldcrest Kennels",
+          "subtitle": "Golden Retrievers, Bengaluru",
+          "img": "p1",
+          "tags": [
+            "Dogs",
+            "KCI registered",
+            "Health tested"
+          ],
+          "meta": [
+            [
+              "Breed",
+              "Golden Retriever"
+            ],
+            [
+              "Experience",
+              "14 years"
+            ],
+            [
+              "Registration",
+              "KCI registered"
+            ],
+            [
+              "Health tests",
+              "Hips, elbows, eyes"
+            ]
+          ],
+          "about": "Family-raised golden retrievers from health-tested parents. Puppies are vaccinated, microchipped and come with a written health guarantee.",
+          "highlights": [
+            "KCI registered",
+            "Parents health tested",
+            "Visits welcome",
+            "Lifetime support"
+          ],
+          "verified": true,
+          "rating": 4.9,
+          "reviews": 112
+        },
+        {
+          "id": "br2",
+          "title": "Northern Lights Huskies",
+          "subtitle": "Siberian Huskies, Mysuru",
+          "img": "p2",
+          "tags": [
+            "Dogs",
+            "KCI registered"
+          ],
+          "meta": [
+            [
+              "Breed",
+              "Siberian Husky"
+            ],
+            [
+              "Experience",
+              "9 years"
+            ],
+            [
+              "Registration",
+              "KCI registered"
+            ],
+            [
+              "Health tests",
+              "Eyes, hips"
+            ]
+          ],
+          "about": "A small kennel focused on temperament and health, placing puppies only with homes that can handle the breed.",
+          "highlights": [
+            "KCI registered",
+            "Home screening",
+            "Visits welcome",
+            "Care guide included"
+          ],
+          "verified": true,
+          "rating": 4.8,
+          "reviews": 64
+        },
+        {
+          "id": "br3",
+          "title": "Lab Legacy",
+          "subtitle": "Labrador Retrievers, Bengaluru",
+          "img": "p3",
+          "tags": [
+            "Dogs",
+            "Health tested"
+          ],
+          "meta": [
+            [
+              "Breed",
+              "Labrador Retriever"
+            ],
+            [
+              "Experience",
+              "11 years"
+            ],
+            [
+              "Registration",
+              "KCI registered"
+            ],
+            [
+              "Health tests",
+              "Hips, elbows, EIC"
+            ]
+          ],
+          "about": "Show-line labradors with excellent temperaments, raised with children and other dogs.",
+          "highlights": [
+            "Health tested parents",
+            "Socialised with children",
+            "Visits welcome",
+            "Written contract"
+          ],
+          "verified": true,
+          "rating": 4.9,
+          "reviews": 89
+        },
+        {
+          "id": "br4",
+          "title": "Royal Persian Cattery",
+          "subtitle": "Persian Cats, Chennai",
+          "img": "p4",
+          "tags": [
+            "Cats",
+            "Health tested"
+          ],
+          "meta": [
+            [
+              "Breed",
+              "Persian"
+            ],
+            [
+              "Experience",
+              "8 years"
+            ],
+            [
+              "Registration",
+              "CFA registered"
+            ],
+            [
+              "Health tests",
+              "PKD, heart"
+            ]
+          ],
+          "about": "Home-raised Persian kittens with full vaccination, grooming guidance and lifetime breeder support.",
+          "highlights": [
+            "PKD tested",
+            "Vaccinated",
+            "Grooming guide",
+            "Lifetime support"
+          ],
+          "verified": true,
+          "rating": 4.8,
+          "reviews": 47
+        },
+        {
+          "id": "br5",
+          "title": "Shepherd Hill Kennels",
+          "subtitle": "German Shepherds, Pune",
+          "img": "c15",
+          "tags": [
+            "Dogs",
+            "KCI registered",
+            "Health tested"
+          ],
+          "meta": [
+            [
+              "Breed",
+              "German Shepherd"
+            ],
+            [
+              "Experience",
+              "16 years"
+            ],
+            [
+              "Registration",
+              "KCI registered"
+            ],
+            [
+              "Health tests",
+              "Hips, elbows"
+            ]
+          ],
+          "about": "Working-line shepherds with sound temperaments and structured early socialisation.",
+          "highlights": [
+            "Hip and elbow scored",
+            "Early socialisation",
+            "Visits welcome",
+            "Training advice"
+          ],
+          "verified": true,
+          "rating": 4.7,
+          "reviews": 58
+        }
+      ],
+      "key": "breeders"
+    },
+    "ngos": {
+      "title": "NGO Donation Marketplace",
+      "eyebrow": "More for pet parents",
+      "blurb": "Verified rescues with transparent impact. Donations are 80G eligible.",
+      "icon": "hand-heart",
+      "hero": "c8",
+      "filters": [
+        "Rescue",
+        "Medical",
+        "Feeding",
+        "Shelter"
+      ],
+      "searchPlaceholder": "Search NGOs",
+      "action": {
+        "kind": "donate",
+        "label": "Donate",
+        "title": "Make a donation",
+        "status": "Donated",
+        "fields": [
+          {
+            "key": "amount",
+            "label": "Amount",
+            "type": "chips",
+            "options": [
+              "250",
+              "500",
+              "1,000",
+              "2,500",
+              "5,000"
+            ]
+          },
+          {
+            "key": "freq",
+            "label": "Frequency",
+            "type": "chips",
+            "options": [
+              "One time",
+              "Every month"
+            ]
+          }
+        ],
+        "steps": [
+          [
+            "Donation recorded",
+            "Your contribution is confirmed"
+          ],
+          [
+            "Receipt",
+            "An 80G tax receipt is emailed"
+          ],
+          [
+            "Impact update",
+            "You receive photos and a report from the NGO"
+          ]
+        ],
+        "successTitle": "Thank you",
+        "successBody": "Your donation is recorded. A tax receipt and impact update will follow.",
+        "pay": true
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "ng1",
+          "title": "Cubbon Park Rescue",
+          "subtitle": "Street rescue and rehabilitation",
+          "img": "c8",
+          "tags": [
+            "Rescue",
+            "Medical"
+          ],
+          "meta": [
+            [
+              "Founded",
+              "2014"
+            ],
+            [
+              "Animals helped",
+              "8,400"
+            ],
+            [
+              "Registration",
+              "80G, 12A"
+            ],
+            [
+              "Focus",
+              "Rescue, surgery"
+            ]
+          ],
+          "about": "Rescues injured and abandoned street animals and funds surgery, vaccination and rehoming.",
+          "highlights": [
+            "80G tax benefit",
+            "Audited accounts",
+            "Monthly impact report",
+            "Volunteer programme"
+          ],
+          "verified": true,
+          "rating": 4.9,
+          "reviews": 320
+        },
+        {
+          "id": "ng2",
+          "title": "Happy Tails Shelter",
+          "subtitle": "Shelter care and adoption",
+          "img": "p3",
+          "tags": [
+            "Shelter",
+            "Rescue"
+          ],
+          "meta": [
+            [
+              "Founded",
+              "2011"
+            ],
+            [
+              "Animals helped",
+              "5,200"
+            ],
+            [
+              "Registration",
+              "80G, 12A"
+            ],
+            [
+              "Focus",
+              "Shelter, adoption"
+            ]
+          ],
+          "about": "Houses and rehomes dogs and cats, with a vet clinic on site and a focus on senior animals.",
+          "highlights": [
+            "80G tax benefit",
+            "On-site clinic",
+            "Senior pet programme",
+            "Visit any day"
+          ],
+          "verified": true,
+          "rating": 4.8,
+          "reviews": 210
+        },
+        {
+          "id": "ng3",
+          "title": "Street Feed Foundation",
+          "subtitle": "Daily feeding of community animals",
+          "img": "c9",
+          "tags": [
+            "Feeding"
+          ],
+          "meta": [
+            [
+              "Founded",
+              "2017"
+            ],
+            [
+              "Meals served",
+              "640,000"
+            ],
+            [
+              "Registration",
+              "80G, 12A"
+            ],
+            [
+              "Focus",
+              "Feeding, sterilisation"
+            ]
+          ],
+          "about": "Runs daily feeding rounds across 40 neighbourhoods and sterilisation drives to manage populations humanely.",
+          "highlights": [
+            "80G tax benefit",
+            "Daily feeding",
+            "Sterilisation drives",
+            "Transparent costs"
+          ],
+          "verified": true,
+          "rating": 4.7,
+          "reviews": 140
+        },
+        {
+          "id": "ng4",
+          "title": "Whisker Haven",
+          "subtitle": "Cat rescue and fostering",
+          "img": "p4",
+          "tags": [
+            "Rescue",
+            "Shelter"
+          ],
+          "meta": [
+            [
+              "Founded",
+              "2016"
+            ],
+            [
+              "Animals helped",
+              "2,900"
+            ],
+            [
+              "Registration",
+              "80G, 12A"
+            ],
+            [
+              "Focus",
+              "Cats, fostering"
+            ]
+          ],
+          "about": "Rescues and fosters cats and kittens, with medical care and rehoming support.",
+          "highlights": [
+            "80G tax benefit",
+            "Foster network",
+            "Medical care",
+            "Adoption support"
+          ],
+          "verified": true,
+          "rating": 4.8,
+          "reviews": 96
+        },
+        {
+          "id": "ng5",
+          "title": "Golden Years Rescue",
+          "subtitle": "Senior pet sanctuary",
+          "img": "p1",
+          "tags": [
+            "Medical",
+            "Shelter"
+          ],
+          "meta": [
+            [
+              "Founded",
+              "2019"
+            ],
+            [
+              "Animals helped",
+              "780"
+            ],
+            [
+              "Registration",
+              "80G, 12A"
+            ],
+            [
+              "Focus",
+              "Seniors, palliative"
+            ]
+          ],
+          "about": "A sanctuary for senior and special-needs animals, covering long-term care and comfort.",
+          "highlights": [
+            "80G tax benefit",
+            "Palliative care",
+            "Sponsor a senior",
+            "Open visits"
+          ],
+          "verified": true,
+          "rating": 4.9,
+          "reviews": 74
+        }
+      ],
+      "key": "ngos"
+    },
+    "places": {
+      "title": "Pet-Friendly Places Directory",
+      "eyebrow": "More for pet parents",
+      "blurb": "Cafes, parks, hotels and stores that genuinely welcome pets.",
+      "icon": "pin",
+      "hero": "community",
+      "filters": [
+        "Cafes",
+        "Parks",
+        "Hotels",
+        "Stores"
+      ],
+      "searchPlaceholder": "Search places or areas",
+      "action": {
+        "kind": "visit",
+        "label": "Plan a visit",
+        "title": "Plan your visit",
+        "status": "Planned",
+        "fields": [
+          {
+            "key": "day",
+            "label": "When",
+            "type": "chips",
+            "options": [
+              "Today",
+              "Tomorrow",
+              "This weekend"
+            ]
+          },
+          {
+            "key": "pet",
+            "label": "Bringing",
+            "type": "chips",
+            "options": "@pets"
+          }
+        ],
+        "steps": [
+          [
+            "Visit planned",
+            "Saved to your plans"
+          ],
+          [
+            "Reminder",
+            "A reminder is sent before you go"
+          ],
+          [
+            "Enjoy",
+            "Share a photo with the community"
+          ]
+        ],
+        "successTitle": "Visit planned",
+        "successBody": "Saved to your plans. We will send a reminder."
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "pl1",
+          "title": "Bark and Brew Cafe",
+          "subtitle": "Indiranagar, 0.9 km",
+          "img": "c5",
+          "tags": [
+            "Cafes"
+          ],
+          "meta": [
+            [
+              "Area",
+              "Indiranagar"
+            ],
+            [
+              "Hours",
+              "8 AM to 10 PM"
+            ],
+            [
+              "Pets",
+              "Dogs and cats"
+            ],
+            [
+              "Amenities",
+              "Water bowls, pet menu"
+            ]
+          ],
+          "about": "A cafe with a dedicated pet menu, water bowls at every table and an enclosed play area.",
+          "highlights": [
+            "Pet menu",
+            "Water bowls",
+            "Enclosed play area",
+            "Outdoor seating"
+          ],
+          "verified": true,
+          "rating": 4.7,
+          "reviews": 320
+        },
+        {
+          "id": "pl2",
+          "title": "Defence Colony Park",
+          "subtitle": "Indiranagar, 1.4 km",
+          "img": "community",
+          "tags": [
+            "Parks"
+          ],
+          "meta": [
+            [
+              "Area",
+              "Indiranagar"
+            ],
+            [
+              "Hours",
+              "5 AM to 9 PM"
+            ],
+            [
+              "Pets",
+              "Dogs welcome off-leash zone"
+            ],
+            [
+              "Amenities",
+              "Fenced run, water points"
+            ]
+          ],
+          "about": "A leafy park with a fenced off-leash zone and water points. Best in the morning.",
+          "highlights": [
+            "Off-leash zone",
+            "Water points",
+            "Shaded paths",
+            "Free entry"
+          ],
+          "verified": true,
+          "rating": 4.6,
+          "reviews": 540
+        },
+        {
+          "id": "pl3",
+          "title": "The Leaf Retreat",
+          "subtitle": "Coorg, 240 km",
+          "img": "s4",
+          "tags": [
+            "Hotels"
+          ],
+          "meta": [
+            [
+              "Area",
+              "Coorg"
+            ],
+            [
+              "Hours",
+              "Check-in 2 PM"
+            ],
+            [
+              "Pets",
+              "Dogs welcome, 2 per room"
+            ],
+            [
+              "Amenities",
+              "Pet bed, garden"
+            ]
+          ],
+          "about": "A plantation stay that welcomes dogs, with pet beds, a private garden and walking trails.",
+          "highlights": [
+            "Pet bed supplied",
+            "Private garden",
+            "Walking trails",
+            "Pet-sitting on request"
+          ],
+          "verified": true,
+          "rating": 4.8,
+          "reviews": 210
+        },
+        {
+          "id": "pl4",
+          "title": "Paws and Claws Store",
+          "subtitle": "Koramangala, 3.2 km",
+          "img": "shop",
+          "tags": [
+            "Stores"
+          ],
+          "meta": [
+            [
+              "Area",
+              "Koramangala"
+            ],
+            [
+              "Hours",
+              "10 AM to 9 PM"
+            ],
+            [
+              "Pets",
+              "All pets welcome inside"
+            ],
+            [
+              "Amenities",
+              "Trial fits, treat bar"
+            ]
+          ],
+          "about": "A pet store where pets can try on harnesses and clothes, with a treat bar and grooming corner.",
+          "highlights": [
+            "Pets welcome inside",
+            "Trial fits",
+            "Treat bar",
+            "Grooming corner"
+          ],
+          "verified": true,
+          "rating": 4.6,
+          "reviews": 180
+        },
+        {
+          "id": "pl5",
+          "title": "Cubbon Park Dog Zone",
+          "subtitle": "MG Road, 2.1 km",
+          "img": "c1",
+          "tags": [
+            "Parks"
+          ],
+          "meta": [
+            [
+              "Area",
+              "MG Road"
+            ],
+            [
+              "Hours",
+              "6 AM to 8 PM"
+            ],
+            [
+              "Pets",
+              "Dogs welcome"
+            ],
+            [
+              "Amenities",
+              "Fenced run, agility set"
+            ]
+          ],
+          "about": "A fenced dog run with agility equipment and a small-dog area.",
+          "highlights": [
+            "Agility equipment",
+            "Small-dog area",
+            "Water points",
+            "Free entry"
+          ],
+          "verified": true,
+          "rating": 4.7,
+          "reviews": 410
+        },
+        {
+          "id": "pl6",
+          "title": "Fur and Feather Cafe",
+          "subtitle": "HSR Layout, 4.5 km",
+          "img": "c6",
+          "tags": [
+            "Cafes"
+          ],
+          "meta": [
+            [
+              "Area",
+              "HSR Layout"
+            ],
+            [
+              "Hours",
+              "9 AM to 11 PM"
+            ],
+            [
+              "Pets",
+              "Dogs and cats"
+            ],
+            [
+              "Amenities",
+              "Pet menu, cat lounge"
+            ]
+          ],
+          "about": "A relaxed cafe with a cat lounge and a pet menu, popular for weekend brunch.",
+          "highlights": [
+            "Cat lounge",
+            "Pet menu",
+            "Outdoor seating",
+            "Weekend events"
+          ],
+          "verified": true,
+          "rating": 4.5,
+          "reviews": 260
+        },
+        {
+          "id": "pl7",
+          "title": "Lakeview Pet Resort",
+          "subtitle": "Nandi Hills, 62 km",
+          "img": "s12",
+          "tags": [
+            "Hotels"
+          ],
+          "meta": [
+            [
+              "Area",
+              "Nandi Hills"
+            ],
+            [
+              "Hours",
+              "Check-in 1 PM"
+            ],
+            [
+              "Pets",
+              "Dogs welcome"
+            ],
+            [
+              "Amenities",
+              "Trails, pet pool"
+            ]
+          ],
+          "about": "A hill resort with a pet pool, trails and pet-friendly rooms.",
+          "highlights": [
+            "Pet pool",
+            "Trails",
+            "Pet menu",
+            "Vet on call"
+          ],
+          "verified": true,
+          "rating": 4.7,
+          "reviews": 130
+        },
+        {
+          "id": "pl8",
+          "title": "Lalbagh Garden Walk",
+          "subtitle": "Jayanagar, 6 km",
+          "img": "c9",
+          "tags": [
+            "Parks"
+          ],
+          "meta": [
+            [
+              "Area",
+              "Jayanagar"
+            ],
+            [
+              "Hours",
+              "6 AM to 7 PM"
+            ],
+            [
+              "Pets",
+              "Leashed dogs welcome"
+            ],
+            [
+              "Amenities",
+              "Shaded trails"
+            ]
+          ],
+          "about": "Shaded botanical garden trails for leashed dogs. Quietest on weekday mornings.",
+          "highlights": [
+            "Shaded trails",
+            "Leash required",
+            "Water points",
+            "Small entry fee"
+          ],
+          "verified": true,
+          "rating": 4.4,
+          "reviews": 700
+        }
+      ],
+      "key": "places"
+    },
+    "influencers": {
+      "title": "Pet Influencer Marketplace",
+      "eyebrow": "More for pet parents",
+      "blurb": "Verified creators with authentic pet communities.",
+      "icon": "megaphone",
+      "hero": "c13",
+      "filters": [
+        "Dogs",
+        "Cats",
+        "Lifestyle",
+        "Training"
+      ],
+      "searchPlaceholder": "Search creators",
+      "action": {
+        "kind": "collab",
+        "label": "Request collaboration",
+        "title": "Collaboration request",
+        "status": "Requested",
+        "fields": [
+          {
+            "key": "brand",
+            "label": "Brand or business",
+            "type": "text",
+            "placeholder": "Who is this for"
+          },
+          {
+            "key": "type",
+            "label": "Campaign",
+            "type": "chips",
+            "options": [
+              "Product review",
+              "Event appearance",
+              "Giveaway",
+              "Brand ambassador"
+            ]
+          },
+          {
+            "key": "budget",
+            "label": "Budget",
+            "type": "chips",
+            "options": [
+              "Under 10,000",
+              "10,000 to 50,000",
+              "Above 50,000"
+            ]
+          }
+        ],
+        "steps": [
+          [
+            "Request sent",
+            "The creator receives your brief"
+          ],
+          [
+            "Proposal",
+            "They reply with a plan and rates"
+          ],
+          [
+            "Agreement",
+            "Confirm deliverables and timelines"
+          ]
+        ],
+        "successTitle": "Request sent",
+        "successBody": "Creators typically respond within two working days."
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "in1",
+          "title": "Coco the Beagle",
+          "subtitle": "128K followers, Dogs",
+          "img": "c1",
+          "tags": [
+            "Dogs",
+            "Lifestyle"
+          ],
+          "meta": [
+            [
+              "Followers",
+              "128K"
+            ],
+            [
+              "Engagement",
+              "7.4 percent"
+            ],
+            [
+              "Niche",
+              "Dog lifestyle"
+            ],
+            [
+              "Rate from",
+              "Rs 15,000"
+            ]
+          ],
+          "about": "Coco and Priya share everyday life with a beagle, with honest reviews and training clips.",
+          "highlights": [
+            "Verified account",
+            "Honest reviews",
+            "Strong engagement",
+            "Past brand partners"
+          ],
+          "verified": true
+        },
+        {
+          "id": "in2",
+          "title": "Tango the Collie",
+          "subtitle": "86K followers, Training",
+          "img": "c13",
+          "tags": [
+            "Dogs",
+            "Training"
+          ],
+          "meta": [
+            [
+              "Followers",
+              "86K"
+            ],
+            [
+              "Engagement",
+              "8.9 percent"
+            ],
+            [
+              "Niche",
+              "Agility and training"
+            ],
+            [
+              "Rate from",
+              "Rs 12,000"
+            ]
+          ],
+          "about": "Training tutorials and agility content from a border collie and his trainer.",
+          "highlights": [
+            "Verified account",
+            "Training tutorials",
+            "High engagement",
+            "Event appearances"
+          ],
+          "verified": true
+        },
+        {
+          "id": "in3",
+          "title": "Mimi and Milo",
+          "subtitle": "74K followers, Cats",
+          "img": "p4",
+          "tags": [
+            "Cats",
+            "Lifestyle"
+          ],
+          "meta": [
+            [
+              "Followers",
+              "74K"
+            ],
+            [
+              "Engagement",
+              "6.2 percent"
+            ],
+            [
+              "Niche",
+              "Cat lifestyle"
+            ],
+            [
+              "Rate from",
+              "Rs 9,000"
+            ]
+          ],
+          "about": "Two cats and their cosy home, with reviews of cat products and decor.",
+          "highlights": [
+            "Verified account",
+            "Cat product reviews",
+            "Cosy home content",
+            "Giveaway friendly"
+          ],
+          "verified": true
+        },
+        {
+          "id": "in4",
+          "title": "Kai the Husky",
+          "subtitle": "210K followers, Dogs",
+          "img": "p2",
+          "tags": [
+            "Dogs",
+            "Lifestyle"
+          ],
+          "meta": [
+            [
+              "Followers",
+              "210K"
+            ],
+            [
+              "Engagement",
+              "5.8 percent"
+            ],
+            [
+              "Niche",
+              "Adventure"
+            ],
+            [
+              "Rate from",
+              "Rs 30,000"
+            ]
+          ],
+          "about": "Trail adventures and outdoor gear reviews from a blue-eyed husky.",
+          "highlights": [
+            "Verified account",
+            "Outdoor gear reviews",
+            "Large reach",
+            "Travel content"
+          ],
+          "verified": true
+        },
+        {
+          "id": "in5",
+          "title": "Biscuit Bakes",
+          "subtitle": "52K followers, Dogs",
+          "img": "c9",
+          "tags": [
+            "Dogs",
+            "Lifestyle"
+          ],
+          "meta": [
+            [
+              "Followers",
+              "52K"
+            ],
+            [
+              "Engagement",
+              "9.1 percent"
+            ],
+            [
+              "Niche",
+              "Homemade treats"
+            ],
+            [
+              "Rate from",
+              "Rs 7,000"
+            ]
+          ],
+          "about": "Recipes and taste tests for dog treats, with vet-reviewed ingredients.",
+          "highlights": [
+            "Verified account",
+            "Vet-reviewed recipes",
+            "High engagement",
+            "Food brand friendly"
+          ],
+          "verified": true
+        },
+        {
+          "id": "in6",
+          "title": "Pawsitive Academy",
+          "subtitle": "98K followers, Training",
+          "img": "c1",
+          "tags": [
+            "Dogs",
+            "Training"
+          ],
+          "meta": [
+            [
+              "Followers",
+              "98K"
+            ],
+            [
+              "Engagement",
+              "7.9 percent"
+            ],
+            [
+              "Niche",
+              "Puppy training"
+            ],
+            [
+              "Rate from",
+              "Rs 18,000"
+            ]
+          ],
+          "about": "Certified trainers sharing short, practical training tips for new pet parents.",
+          "highlights": [
+            "Verified account",
+            "Certified trainers",
+            "Practical tips",
+            "Workshop partner"
+          ],
+          "verified": true
+        }
+      ],
+      "key": "influencers"
+    },
+    "plans": {
+      "title": "Insurance and wellness plans",
+      "eyebrow": "Care services",
+      "blurb": "Cover accidents, illness and routine care. Compare and choose in minutes.",
+      "icon": "shield",
+      "hero": "prime",
+      "filters": [
+        "Insurance",
+        "Wellness"
+      ],
+      "searchPlaceholder": "Search plans",
+      "action": {
+        "kind": "subscribe",
+        "label": "Choose plan",
+        "title": "Choose this plan",
+        "status": "Active",
+        "fields": [
+          {
+            "key": "pet",
+            "label": "Covered pet",
+            "type": "chips",
+            "options": "@pets"
+          },
+          {
+            "key": "billing",
+            "label": "Billing",
+            "type": "chips",
+            "options": [
+              "Monthly",
+              "Annual"
+            ]
+          }
+        ],
+        "steps": [
+          [
+            "Plan activated",
+            "Coverage starts after the waiting period shown"
+          ],
+          [
+            "Policy documents",
+            "Emailed and stored in your vault"
+          ],
+          [
+            "Claims and benefits",
+            "Use them from the Services tab"
+          ]
+        ],
+        "successTitle": "Plan activated",
+        "successBody": "Your plan is active. Documents are on their way to your inbox.",
+        "pay": true
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "pi1",
+          "title": "PetShield Essential",
+          "subtitle": "Accident and emergency cover",
+          "img": "prime",
+          "tags": [
+            "Insurance"
+          ],
+          "meta": [
+            [
+              "Premium",
+              "Rs 3,499 per year"
+            ],
+            [
+              "Cover",
+              "Up to Rs 1,00,000"
+            ],
+            [
+              "Waiting period",
+              "14 days"
+            ],
+            [
+              "Claims",
+              "Cashless at 400 clinics"
+            ]
+          ],
+          "about": "Covers accidents, poisoning and emergency surgery with cashless claims at partner clinics.",
+          "highlights": [
+            "Accidents covered",
+            "Emergency surgery",
+            "Cashless claims",
+            "No age limit to 8 years"
+          ],
+          "verified": true,
+          "price": "Rs 3,499 per year",
+          "rating": 4.5,
+          "reviews": 880
+        },
+        {
+          "id": "pi2",
+          "title": "PetShield Plus",
+          "subtitle": "Accident, illness and surgery",
+          "img": "prime",
+          "tags": [
+            "Insurance"
+          ],
+          "meta": [
+            [
+              "Premium",
+              "Rs 6,999 per year"
+            ],
+            [
+              "Cover",
+              "Up to Rs 3,00,000"
+            ],
+            [
+              "Waiting period",
+              "14 days"
+            ],
+            [
+              "Claims",
+              "Cashless at 400 clinics"
+            ]
+          ],
+          "about": "Adds illness, hospitalisation and diagnostics to accident cover, with annual checkup credit.",
+          "highlights": [
+            "Illness covered",
+            "Hospitalisation",
+            "Diagnostics",
+            "Annual checkup credit"
+          ],
+          "verified": true,
+          "price": "Rs 6,999 per year",
+          "rating": 4.7,
+          "reviews": 1240
+        },
+        {
+          "id": "pi3",
+          "title": "Wellness Essentials",
+          "subtitle": "Routine care bundle",
+          "img": "prime",
+          "tags": [
+            "Wellness"
+          ],
+          "meta": [
+            [
+              "Price",
+              "Rs 2,999 per year"
+            ],
+            [
+              "Includes",
+              "Vaccines, checkup"
+            ],
+            [
+              "Consults",
+              "2 teleconsults"
+            ],
+            [
+              "Savings",
+              "Up to Rs 4,500"
+            ]
+          ],
+          "about": "Bundles annual vaccines, a clinic checkup and two video consults at one price.",
+          "highlights": [
+            "Annual vaccines",
+            "Clinic checkup",
+            "2 video consults",
+            "Reminders included"
+          ],
+          "verified": true,
+          "price": "Rs 2,999 per year",
+          "rating": 4.6,
+          "reviews": 560
+        },
+        {
+          "id": "pi4",
+          "title": "Wellness Plus",
+          "subtitle": "Complete preventive care",
+          "img": "prime",
+          "tags": [
+            "Wellness"
+          ],
+          "meta": [
+            [
+              "Price",
+              "Rs 5,499 per year"
+            ],
+            [
+              "Includes",
+              "Vaccines, dental, grooming"
+            ],
+            [
+              "Consults",
+              "6 teleconsults"
+            ],
+            [
+              "Savings",
+              "Up to Rs 9,800"
+            ]
+          ],
+          "about": "Adds dental cleaning, quarterly grooming and six video consults to routine care.",
+          "highlights": [
+            "Dental cleaning",
+            "Quarterly grooming",
+            "6 video consults",
+            "Priority slots"
+          ],
+          "verified": true,
+          "price": "Rs 5,499 per year",
+          "rating": 4.8,
+          "reviews": 430
+        },
+        {
+          "id": "pi5",
+          "title": "Lifetime Cover",
+          "subtitle": "Comprehensive lifelong cover",
+          "img": "prime",
+          "tags": [
+            "Insurance"
+          ],
+          "meta": [
+            [
+              "Premium",
+              "Rs 11,999 per year"
+            ],
+            [
+              "Cover",
+              "Up to Rs 5,00,000"
+            ],
+            [
+              "Waiting period",
+              "30 days"
+            ],
+            [
+              "Claims",
+              "Cashless nationwide"
+            ]
+          ],
+          "about": "Lifelong renewable cover including chronic conditions and cancer care, with no breed exclusions.",
+          "highlights": [
+            "Chronic conditions",
+            "Cancer care",
+            "Lifelong renewal",
+            "No breed exclusions"
+          ],
+          "verified": true,
+          "price": "Rs 11,999 per year",
+          "rating": 4.7,
+          "reviews": 320
+        }
+      ],
+      "key": "plans"
+    },
+    "prime": {
+      "title": "Pet Prime Wellness Plans",
+      "eyebrow": "Smart pet care",
+      "blurb": "One membership for free delivery, vet credits and member pricing.",
+      "icon": "crown",
+      "hero": "prime",
+      "filters": [
+        "Individual",
+        "Family"
+      ],
+      "searchPlaceholder": "Search plans",
+      "action": {
+        "kind": "subscribe",
+        "label": "Choose plan",
+        "title": "Choose this plan",
+        "status": "Active",
+        "fields": [
+          {
+            "key": "pet",
+            "label": "Covered pet",
+            "type": "chips",
+            "options": "@pets"
+          },
+          {
+            "key": "billing",
+            "label": "Billing",
+            "type": "chips",
+            "options": [
+              "Monthly",
+              "Annual"
+            ]
+          }
+        ],
+        "steps": [
+          [
+            "Plan activated",
+            "Coverage starts after the waiting period shown"
+          ],
+          [
+            "Policy documents",
+            "Emailed and stored in your vault"
+          ],
+          [
+            "Claims and benefits",
+            "Use them from the Services tab"
+          ]
+        ],
+        "successTitle": "Plan activated",
+        "successBody": "Your plan is active. Documents are on their way to your inbox.",
+        "pay": true
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "pp1",
+          "title": "Prime Monthly",
+          "subtitle": "Flexible, cancel any time",
+          "img": "prime",
+          "tags": [
+            "Individual"
+          ],
+          "meta": [
+            [
+              "Price",
+              "Rs 149 per month"
+            ],
+            [
+              "Delivery",
+              "Free on Rs 499+"
+            ],
+            [
+              "Consults",
+              "1 per month"
+            ],
+            [
+              "Extra",
+              "5 percent off subscriptions"
+            ]
+          ],
+          "about": "Pay monthly and cancel any time. Includes free delivery, one teleconsult every month and member pricing.",
+          "highlights": [
+            "Free delivery",
+            "1 teleconsult per month",
+            "Member pricing",
+            "Cancel any time"
+          ],
+          "verified": true,
+          "price": "Rs 149 per month"
+        },
+        {
+          "id": "pp2",
+          "title": "Prime Annual",
+          "subtitle": "Best value for one pet",
+          "img": "prime",
+          "tags": [
+            "Individual"
+          ],
+          "meta": [
+            [
+              "Price",
+              "Rs 1,499 per year"
+            ],
+            [
+              "Delivery",
+              "Free on Rs 499+"
+            ],
+            [
+              "Consults",
+              "4 per year"
+            ],
+            [
+              "Extra",
+              "5 percent off subscriptions"
+            ]
+          ],
+          "about": "Save more with an annual plan. Includes free delivery, four teleconsults and priority booking.",
+          "highlights": [
+            "Free delivery",
+            "4 teleconsults",
+            "Priority booking",
+            "Save 16 percent"
+          ],
+          "verified": true,
+          "price": "Rs 1,499 per year",
+          "badge": "Best value"
+        },
+        {
+          "id": "pp3",
+          "title": "Prime Family",
+          "subtitle": "Up to four pets",
+          "img": "prime",
+          "tags": [
+            "Family"
+          ],
+          "meta": [
+            [
+              "Price",
+              "Rs 2,999 per year"
+            ],
+            [
+              "Delivery",
+              "Free on Rs 499+"
+            ],
+            [
+              "Consults",
+              "10 per year"
+            ],
+            [
+              "Extra",
+              "Shared vet credits"
+            ]
+          ],
+          "about": "One membership for up to four pets with shared vet credits, free delivery and a dedicated care manager.",
+          "highlights": [
+            "Up to 4 pets",
+            "Shared vet credits",
+            "Care manager",
+            "10 teleconsults"
+          ],
+          "verified": true,
+          "price": "Rs 2,999 per year"
+        }
+      ],
+      "key": "prime"
+    },
+    "dna": {
+      "title": "DNA and Breed Verification",
+      "eyebrow": "Smart pet care",
+      "blurb": "Accredited lab kits. Results are added to the Pet Passport.",
+      "icon": "dna",
+      "hero": "pr14",
+      "filters": [
+        "Breed",
+        "Health"
+      ],
+      "searchPlaceholder": "Search kits",
+      "action": {
+        "kind": "kit",
+        "label": "Order test kit",
+        "title": "Order a DNA kit",
+        "status": "Kit ordered",
+        "fields": [
+          {
+            "key": "pet",
+            "label": "Pet",
+            "type": "chips",
+            "options": "@pets"
+          },
+          {
+            "key": "address",
+            "label": "Deliver to",
+            "type": "chips",
+            "options": [
+              "Home, 42 MG Road",
+              "Office, Indiranagar"
+            ]
+          }
+        ],
+        "steps": [
+          [
+            "Kit dispatched",
+            "Arrives in two to three days"
+          ],
+          [
+            "Swab and return",
+            "Cheek swab, return in the prepaid pouch"
+          ],
+          [
+            "Lab analysis",
+            "Accredited lab results in 10 to 14 days"
+          ],
+          [
+            "Report",
+            "Added to the Pet Passport"
+          ]
+        ],
+        "successTitle": "Kit ordered",
+        "successBody": "Your DNA kit is on its way. Results are added to the Pet Passport.",
+        "pay": true
+      },
+      "secondary": "Save",
+      "entries": [
+        {
+          "id": "dn1",
+          "title": "Breed Identification Kit",
+          "subtitle": "Know what is in the mix",
+          "img": "pr14",
+          "tags": [
+            "Breed"
+          ],
+          "meta": [
+            [
+              "Price",
+              "Rs 5,999"
+            ],
+            [
+              "Markers",
+              "350+ breeds"
+            ],
+            [
+              "Results",
+              "10 to 14 days"
+            ],
+            [
+              "Sample",
+              "Cheek swab"
+            ]
+          ],
+          "about": "Identifies breed ancestry across more than 350 breeds and verifies purebred status.",
+          "highlights": [
+            "350+ breeds",
+            "Purebred verification",
+            "Added to Pet Passport",
+            "Accredited lab"
+          ],
+          "verified": true,
+          "price": "Rs 5,999"
+        },
+        {
+          "id": "dn2",
+          "title": "Health Panel Kit",
+          "subtitle": "Screen for inherited conditions",
+          "img": "pr14",
+          "tags": [
+            "Health"
+          ],
+          "meta": [
+            [
+              "Price",
+              "Rs 8,999"
+            ],
+            [
+              "Markers",
+              "200+ conditions"
+            ],
+            [
+              "Results",
+              "14 days"
+            ],
+            [
+              "Sample",
+              "Cheek swab"
+            ]
+          ],
+          "about": "Screens for more than 200 inherited conditions and gives a vet-reviewed summary.",
+          "highlights": [
+            "200+ conditions",
+            "Vet-reviewed",
+            "Added to Pet Passport",
+            "Accredited lab"
+          ],
+          "verified": true,
+          "price": "Rs 8,999"
+        },
+        {
+          "id": "dn3",
+          "title": "Complete Kit",
+          "subtitle": "Breed and health in one",
+          "img": "pr14",
+          "tags": [
+            "Breed",
+            "Health"
+          ],
+          "meta": [
+            [
+              "Price",
+              "Rs 11,999"
+            ],
+            [
+              "Markers",
+              "Breed and health"
+            ],
+            [
+              "Results",
+              "14 days"
+            ],
+            [
+              "Sample",
+              "Cheek swab"
+            ]
+          ],
+          "about": "Combines breed identification and the full health panel with a vet consult to discuss results.",
+          "highlights": [
+            "Breed and health",
+            "Vet consult included",
+            "Added to Pet Passport",
+            "Accredited lab"
+          ],
+          "verified": true,
+          "price": "Rs 11,999",
+          "badge": "Best value"
+        }
+      ],
+      "key": "dna"
+    }
+  },
+  "tools": {
+    "breeds": [
+      {
+        "name": "Labrador Retriever",
+        "img": "p3",
+        "size": 3,
+        "energy": 4,
+        "apartment": 2,
+        "kids": 5,
+        "grooming": 2,
+        "trainable": 5,
+        "shedding": 4,
+        "note": "Friendly, eager to please and great with families."
+      },
+      {
+        "name": "Golden Retriever",
+        "img": "p1",
+        "size": 3,
+        "energy": 4,
+        "apartment": 2,
+        "kids": 5,
+        "grooming": 4,
+        "trainable": 5,
+        "shedding": 5,
+        "note": "Gentle, loyal and patient with children."
+      },
+      {
+        "name": "Siberian Husky",
+        "img": "p2",
+        "size": 3,
+        "energy": 5,
+        "apartment": 1,
+        "kids": 4,
+        "grooming": 4,
+        "trainable": 2,
+        "shedding": 5,
+        "note": "Athletic and independent. Needs cool weather and daily running."
+      },
+      {
+        "name": "Beagle",
+        "img": "c1",
+        "size": 2,
+        "energy": 4,
+        "apartment": 3,
+        "kids": 5,
+        "grooming": 1,
+        "trainable": 3,
+        "shedding": 3,
+        "note": "Merry and curious, with a nose that leads the way."
+      },
+      {
+        "name": "Shih Tzu",
+        "img": "c6",
+        "size": 1,
+        "energy": 2,
+        "apartment": 5,
+        "kids": 4,
+        "grooming": 5,
+        "trainable": 3,
+        "shedding": 1,
+        "note": "Affectionate lap dog that adapts well to apartments."
+      },
+      {
+        "name": "Pug",
+        "img": "c9",
+        "size": 1,
+        "energy": 2,
+        "apartment": 5,
+        "kids": 5,
+        "grooming": 2,
+        "trainable": 3,
+        "shedding": 3,
+        "note": "Charming and calm, but sensitive to heat."
+      },
+      {
+        "name": "German Shepherd",
+        "img": "c15",
+        "size": 4,
+        "energy": 5,
+        "apartment": 1,
+        "kids": 4,
+        "grooming": 3,
+        "trainable": 5,
+        "shedding": 4,
+        "note": "Intelligent, loyal and happiest with a job to do."
+      },
+      {
+        "name": "Indian Pariah (Indie)",
+        "img": "c8",
+        "size": 2,
+        "energy": 3,
+        "apartment": 4,
+        "kids": 5,
+        "grooming": 1,
+        "trainable": 4,
+        "shedding": 2,
+        "note": "Hardy, adaptable and low maintenance."
+      },
+      {
+        "name": "Border Collie",
+        "img": "c13",
+        "size": 2,
+        "energy": 5,
+        "apartment": 1,
+        "kids": 3,
+        "grooming": 3,
+        "trainable": 5,
+        "shedding": 3,
+        "note": "Brilliant and tireless. Needs mental work every day."
+      },
+      {
+        "name": "Persian cat",
+        "img": "p4",
+        "size": 1,
+        "energy": 1,
+        "apartment": 5,
+        "kids": 4,
+        "grooming": 5,
+        "trainable": 2,
+        "shedding": 4,
+        "note": "Serene indoor companion that needs daily grooming."
+      },
+      {
+        "name": "Great Dane",
+        "img": "p3",
+        "size": 5,
+        "energy": 3,
+        "apartment": 2,
+        "kids": 4,
+        "grooming": 1,
+        "trainable": 3,
+        "shedding": 2,
+        "note": "A gentle giant that needs space and a sturdy bed."
+      },
+      {
+        "name": "Cocker Spaniel",
+        "img": "c3",
+        "size": 2,
+        "energy": 3,
+        "apartment": 4,
+        "kids": 5,
+        "grooming": 4,
+        "trainable": 4,
+        "shedding": 3,
+        "note": "Cheerful and gentle, with a coat that needs regular care."
+      }
+    ],
+    "symptoms": [
+      {
+        "key": "vomiting",
+        "label": "Vomiting",
+        "weight": 2
+      },
+      {
+        "key": "diarrhoea",
+        "label": "Diarrhoea",
+        "weight": 2
+      },
+      {
+        "key": "lethargy",
+        "label": "Unusual tiredness",
+        "weight": 2
+      },
+      {
+        "key": "appetite",
+        "label": "Not eating",
+        "weight": 2
+      },
+      {
+        "key": "itching",
+        "label": "Scratching or itching",
+        "weight": 1
+      },
+      {
+        "key": "limping",
+        "label": "Limping",
+        "weight": 2
+      },
+      {
+        "key": "cough",
+        "label": "Coughing",
+        "weight": 2
+      },
+      {
+        "key": "breathing",
+        "label": "Difficulty breathing",
+        "weight": 5
+      },
+      {
+        "key": "seizure",
+        "label": "Seizure or collapse",
+        "weight": 6
+      },
+      {
+        "key": "bleeding",
+        "label": "Bleeding",
+        "weight": 5
+      },
+      {
+        "key": "bloat",
+        "label": "Swollen, hard belly",
+        "weight": 6
+      },
+      {
+        "key": "toxin",
+        "label": "May have eaten something toxic",
+        "weight": 6
+      }
+    ],
+    "hospitals": [
+      {
+        "id": "h1",
+        "name": "CityVet 24x7 Emergency Hospital",
+        "area": "Indiranagar",
+        "km": 1.8,
+        "phone": "+91 80 4000 1001",
+        "eta": "8 min",
+        "open": "24 hours"
+      },
+      {
+        "id": "h2",
+        "name": "Paws Critical Care",
+        "area": "Koramangala",
+        "km": 3.6,
+        "phone": "+91 80 4000 1002",
+        "eta": "14 min",
+        "open": "24 hours"
+      },
+      {
+        "id": "h3",
+        "name": "Whitefield Animal Hospital",
+        "area": "Whitefield",
+        "km": 6.2,
+        "phone": "+91 80 4000 1003",
+        "eta": "22 min",
+        "open": "24 hours"
+      }
+    ],
+    "rewards": [
+      {
+        "id": "rw1",
+        "title": "Rs 100 off your next order",
+        "cost": 500,
+        "icon": "tag"
+      },
+      {
+        "id": "rw2",
+        "title": "Free grooming bath",
+        "cost": 1500,
+        "icon": "scissors"
+      },
+      {
+        "id": "rw3",
+        "title": "Free teleconsult",
+        "cost": 2000,
+        "icon": "video"
+      },
+      {
+        "id": "rw4",
+        "title": "Premium toy box",
+        "cost": 2800,
+        "icon": "package"
+      }
+    ],
+    "camera": {
+      "events": [
+        {
+          "id": "cm1",
+          "time": "8:12 AM",
+          "title": "Morning meal finished",
+          "body": "Bruno ate 196 of 200 g.",
+          "icon": "utensils"
+        },
+        {
+          "id": "cm2",
+          "time": "9:40 AM",
+          "title": "Activity spike",
+          "body": "Playing with a toy for 18 minutes.",
+          "icon": "activity"
+        },
+        {
+          "id": "cm3",
+          "time": "11:05 AM",
+          "title": "Barking detected",
+          "body": "Doorbell. Settled after 40 seconds.",
+          "icon": "bell"
+        },
+        {
+          "id": "cm4",
+          "time": "1:30 PM",
+          "title": "Rest period",
+          "body": "Napping on the orthopaedic bed.",
+          "icon": "moon"
+        }
+      ]
+    },
+    "feeding": [
+      {
+        "id": "fs1",
+        "label": "Breakfast",
+        "time": "7:30 AM",
+        "grams": 200,
+        "on": true
+      },
+      {
+        "id": "fs2",
+        "label": "Lunch snack",
+        "time": "12:30 PM",
+        "grams": 40,
+        "on": false
+      },
+      {
+        "id": "fs3",
+        "label": "Dinner",
+        "time": "7:00 PM",
+        "grams": 190,
+        "on": true
+      }
+    ],
+    "birthday": [
+      {
+        "key": "cake",
+        "title": "Pet-safe cake",
+        "body": "A cake from a partner bakery, delivered on the day.",
+        "icon": "cake"
+      },
+      {
+        "key": "gift",
+        "title": "Birthday gift box",
+        "body": "A toy and treat box shipped a day early.",
+        "icon": "gift"
+      },
+      {
+        "key": "invite",
+        "title": "Playdate invites",
+        "body": "Invitations sent to your playdate friends.",
+        "icon": "users"
+      },
+      {
+        "key": "post",
+        "title": "Community shout-out",
+        "body": "A photo post on your behalf with birthday wishes.",
+        "icon": "heart"
+      }
+    ],
+    "vault": [
+      {
+        "id": "vd1",
+        "title": "Annual blood panel",
+        "kind": "Lab report",
+        "date": "2026-09-24",
+        "size": "1.2 MB"
+      },
+      {
+        "id": "vd2",
+        "title": "Hip X-ray",
+        "kind": "Imaging",
+        "date": "2025-12-02",
+        "size": "8.4 MB"
+      },
+      {
+        "id": "vd3",
+        "title": "Dermatology notes",
+        "kind": "Consultation",
+        "date": "2026-09-24",
+        "size": "0.3 MB"
+      }
+    ],
+    "garments": [
+      {
+        "key": "hoodie",
+        "label": "Hoodie",
+        "price": 1499
+      },
+      {
+        "key": "tee",
+        "label": "T-shirt",
+        "price": 899
+      },
+      {
+        "key": "bandana",
+        "label": "Bandana",
+        "price": 499
+      },
+      {
+        "key": "jacket",
+        "label": "Jacket",
+        "price": 1999
+      }
+    ]
+  }
+}
